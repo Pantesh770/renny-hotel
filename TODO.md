@@ -38,6 +38,6 @@
 - [ ] **Email Verification**: Ensure users verify email before booking.
 
 ### Quality Assurance
-- [ ] **Image Stability**: Replace unstable hotel URLs with permanent Wikimedia/CDN links.
+- [x] **Image Stability**: Verified and updated all 93 hotel image URLs with official website links and stable CDN assets in both seed data and frontend fallback.
 - [ ] **Responsive Admin**: Fix table overflows on mobile admin screens.
 - [ ] **Error Handling**: Add more descriptive toast notifications for API failures.

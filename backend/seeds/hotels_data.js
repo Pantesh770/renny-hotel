@@ -5,9 +5,9 @@ const hotels = [
     description: 'A colonial-era coffee farm turned lakeside retreat on the slopes of Mount Meru beside Lake Duluti.',
     price: 210, stars: 4, rating: 4.4,
     address: 'Lake Duluti, Tengeru Road, Arusha', contact: '+255 787 222 222',
-    image: 'https://images.trvl-media.com/hotels/1000000/10000/1100/1104193/f66144da_z.jpg',
-    image2: 'https://images.trvl-media.com/hotels/1000000/10000/1100/1104193/0c9e67d2_z.jpg',
-    image3: 'https://images.trvl-media.com/hotels/1000000/10000/1100/1104193/c7e47c1a_z.jpg',
+    image: 'https://www.serenahotels.com/sites/default/files/styles/hero_image_desktop/public/2021-12/Arusha-Serena-Hotel-Exterior.jpg',
+    image2: 'https://www.serenahotels.com/sites/default/files/styles/gallery_image/public/2021-12/Arusha-Serena-Hotel-Pool.jpg',
+    image3: 'https://www.serenahotels.com/sites/default/files/styles/gallery_image/public/2021-12/Arusha-Serena-Hotel-Dining.jpg',
     sound_url: '', amenities: ['Pool', 'Restaurant', 'Bar', 'Free WiFi', 'Garden', 'Parking']
   },
   {
@@ -15,9 +15,9 @@ const hotels = [
     description: 'Arusha’s premier luxury hotel, offering breathtaking views of Mount Meru and lush landscaped gardens.',
     price: 185, stars: 4, rating: 4.3,
     address: 'Kanisa Road, Arusha', contact: '+255 27 297 0000',
-    image: 'https://images.trvl-media.com/hotels/2000000/1080000/1077800/10777160/761e05a8_z.jpg',
-    image2: 'https://images.trvl-media.com/hotels/2000000/1080000/1077800/10777160/9e64e52b_z.jpg',
-    image3: 'https://images.trvl-media.com/hotels/2000000/1080000/1077800/10777160/c8e54721_z.jpg',
+    image: 'https://www.mountmeruhotel.co.tz/wp-content/uploads/2019/10/Exterior.jpg',
+    image2: 'https://www.mountmeruhotel.co.tz/wp-content/uploads/2019/10/Poolside.jpg',
+    image3: 'https://www.mountmeruhotel.co.tz/wp-content/uploads/2019/10/Executive-Room.jpg',
     sound_url: '', amenities: ['Pool', 'Spa', 'Gym', 'Restaurant', 'Bar', 'Free WiFi', 'Garden']
   },
   {
@@ -47,9 +47,9 @@ const hotels = [
     description: 'A modern luxury hotel within the MNF Square building, offering sophisticated rooms with ocean views.',
     price: 225, stars: 5, rating: 4.7,
     address: 'Sokoine Drive, Dar es Salaam', contact: '+255 22 219 1000',
-    image: 'https://images.trvl-media.com/hotels/39000000/38160000/38150500/38150493/1f6920c7_z.jpg',
-    image2: 'https://images.trvl-media.com/hotels/39000000/38160000/38150500/38150493/9c670a31_z.jpg',
-    image3: 'https://images.trvl-media.com/hotels/39000000/38160000/38150500/38150493/33589410_z.jpg',
+    image: 'https://www.rotana.com/magellan/Property/84/MainImage/MainImage.jpg',
+    image2: 'https://www.rotana.com/magellan/Property/84/Gallery/Pool.jpg',
+    image3: 'https://www.rotana.com/magellan/Property/84/Gallery/Room.jpg',
     sound_url: '', amenities: ['Pool', 'Gym', 'Restaurant', 'Bar', 'Free WiFi', 'Room Service']
   },
   {
@@ -57,9 +57,9 @@ const hotels = [
     description: 'Surrounded by tropical gardens, this hotel blends Swahili architecture with modern luxury.',
     price: 215, stars: 5, rating: 4.5,
     address: 'Ohio Street, Dar es Salaam', contact: '+255 22 211 2416',
-    image: 'https://images.trvl-media.com/hotels/1000000/10000/16000/16226/f66144da_z.jpg',
-    image2: 'https://images.trvl-media.com/hotels/1000000/10000/16000/16226/0c9e67d2_z.jpg',
-    image3: 'https://images.trvl-media.com/hotels/1000000/10000/16000/16226/c7e47c1a_z.jpg',
+    image: 'https://www.serenahotels.com/sites/default/files/styles/hero_image_desktop/public/2021-11/Dar-es-Salaam-Serena-Hotel-Exterior.jpg',
+    image2: 'https://www.serenahotels.com/sites/default/files/styles/gallery_image/public/2021-11/Dar-es-Salaam-Serena-Hotel-Pool.jpg',
+    image3: 'https://www.serenahotels.com/sites/default/files/styles/gallery_image/public/2021-11/Dar-es-Salaam-Serena-Hotel-Room.jpg',
     sound_url: '', amenities: ['Pool', 'Spa', 'Restaurant', 'Bar', 'Free WiFi', 'Garden']
   },
 
@@ -69,9 +69,9 @@ const hotels = [
     description: 'A top choice for government officials and business travelers, featuring rooftop dining.',
     price: 115, stars: 4, rating: 4.2,
     address: 'Plot 23, Block A, Kuu Street, Dodoma', contact: '+255 748 502 701',
-    image: 'https://images.trvl-media.com/hotels/36000000/35650000/35649400/35649313/6c66993a_z.jpg',
-    image2: 'https://images.trvl-media.com/hotels/36000000/35650000/35649400/35649313/f5108846_z.jpg',
-    image3: 'https://images.trvl-media.com/hotels/36000000/35650000/35649400/35649313/4232f7a9_z.jpg',
+    image: 'https://www.bestwestern.com/content/dam/bestwestern/hotels/92015/92015-exterior-1.jpg',
+    image2: 'https://www.bestwestern.com/content/dam/bestwestern/hotels/92015/92015-interior-1.jpg',
+    image3: 'https://www.bestwestern.com/content/dam/bestwestern/hotels/92015/92015-interior-2.jpg',
     sound_url: '', amenities: ['Pool', 'Gym', 'Restaurant', 'Bar', 'Free WiFi', 'Business Center']
   },
   {
@@ -79,9 +79,9 @@ const hotels = [
     description: 'A historic hotel with high ceilings and spacious gardens, located near the railway station.',
     price: 85, stars: 4, rating: 4.0,
     address: 'Plot No. 1, Dodoma', contact: '+255 26 232 1641',
-    image: 'https://images.weserv.nl/?url=newdodomahotel.com/images/gallery/exterior.jpg',
-    image2: 'https://images.weserv.nl/?url=newdodomahotel.com/images/gallery/garden.jpg',
-    image3: 'https://images.weserv.nl/?url=newdodomahotel.com/images/gallery/room.jpg',
+    image: 'https://newdodomahotel.com/images/gallery/exterior.jpg',
+    image2: 'https://newdodomahotel.com/images/gallery/garden.jpg',
+    image3: 'https://newdodomahotel.com/images/gallery/room.jpg',
     sound_url: '', amenities: ['Pool', 'Restaurant', 'Bar', 'Garden', 'Parking']
   },
   {
@@ -89,9 +89,9 @@ const hotels = [
     description: 'A modern boutique hotel offering elegant rooms and high-quality service in the capital.',
     price: 130, stars: 4, rating: 4.4,
     address: 'Area D, Dodoma', contact: '+255 754 555 666',
-    image: 'https://images.trvl-media.com/hotels/10000000/9010000/9000300/9000282/d0e53a35_z.jpg',
-    image2: 'https://images.trvl-media.com/hotels/10000000/9010000/9000300/9000282/87023308_z.jpg',
-    image3: 'https://images.trvl-media.com/hotels/10000000/9010000/9000300/9000282/f764a7c0_z.jpg',
+    image: 'https://moreenahotel.com/images/exterior.jpg',
+    image2: 'https://moreenahotel.com/images/pool.jpg',
+    image3: 'https://moreenahotel.com/images/suite.jpg',
     sound_url: '', amenities: ['Pool', 'Gym', 'Restaurant', 'Bar', 'Free WiFi', 'Spa']
   },
 
@@ -101,9 +101,9 @@ const hotels = [
     description: 'A modern hotel offering upscale conveniences and a welcoming atmosphere for business.',
     price: 80, stars: 4, rating: 4.1,
     address: 'Mission Street, Geita', contact: '+255 788 010 293',
-    image: 'https://images.weserv.nl/?url=goldstonehotel.co.tz/wp-content/uploads/2021/01/hotel-exterior.jpg',
-    image2: 'https://images.weserv.nl/?url=goldstonehotel.co.tz/wp-content/uploads/2021/01/restaurant.jpg',
-    image3: 'https://images.weserv.nl/?url=goldstonehotel.co.tz/wp-content/uploads/2021/01/room.jpg',
+    image: 'https://goldstonehotel.co.tz/wp-content/uploads/2021/01/hotel-exterior.jpg',
+    image2: 'https://goldstonehotel.co.tz/wp-content/uploads/2021/01/restaurant.jpg',
+    image3: 'https://goldstonehotel.co.tz/wp-content/uploads/2021/01/room.jpg',
     sound_url: '', amenities: ['Spa', 'Restaurant', 'Bar', 'Free WiFi', 'Air Conditioning']
   },
   {
@@ -111,9 +111,9 @@ const hotels = [
     description: 'Features multiple dining options and bars, making it a social hub for travelers.',
     price: 50, stars: 3, rating: 3.7,
     address: 'Kalangalala Area, Geita', contact: '+255 777 000 000',
-    image: 'https://images.trvl-media.com/hotels/70000000/69660000/69651500/69651480/2f6412e6_z.jpg',
-    image2: 'https://images.trvl-media.com/hotels/70000000/69660000/69651500/69651480/7e75003c_z.jpg',
-    image3: 'https://images.trvl-media.com/hotels/70000000/69660000/69651500/69651480/962534f3_z.jpg',
+    image: 'https://mazinzihotel.com/images/main.jpg',
+    image2: 'https://mazinzihotel.com/images/bar.jpg',
+    image3: 'https://mazinzihotel.com/images/garden.jpg',
     sound_url: '', amenities: ['Restaurant', 'Bar', 'Free WiFi', 'Garden', 'Parking']
   },
   {
@@ -121,9 +121,9 @@ const hotels = [
     description: 'Comfortable accommodation with modern amenities, catering to both business and leisure.',
     price: 65, stars: 3, rating: 3.9,
     address: 'Geita Town Center', contact: '+255 754 111 222',
-    image: 'https://images.trvl-media.com/hotels/10000000/9610000/9605800/9605798/80486803_z.jpg',
-    image2: 'https://images.trvl-media.com/hotels/10000000/9610000/9605800/9605798/7a976865_z.jpg',
-    image3: 'https://images.trvl-media.com/hotels/10000000/9610000/9605800/9605798/35e23657_z.jpg',
+    image: 'https://lennoxgeita.com/images/ext.jpg',
+    image2: 'https://lennoxgeita.com/images/lobby.jpg',
+    image3: 'https://lennoxgeita.com/images/room.jpg',
     sound_url: '', amenities: ['Restaurant', 'Bar', 'Free WiFi', 'AC', 'Parking']
   },
 
@@ -143,9 +143,9 @@ const hotels = [
     description: 'Offering an authentic safari experience with tented accommodation and great wildlife viewing.',
     price: 290, stars: 4, rating: 4.4,
     address: 'Ruaha National Park Border, Iringa', contact: '+255 754 033 131',
-    image: 'https://images.trvl-media.com/hotels/20000000/19080000/19078600/19078508/9079f225_z.jpg',
-    image2: 'https://images.trvl-media.com/hotels/20000000/19080000/19078600/19078508/b43b6e82_z.jpg',
-    image3: 'https://images.trvl-media.com/hotels/20000000/19080000/19078600/19078508/07065971_z.jpg',
+    image: 'https://www.tandalatentedcamp.com/images/gallery/tent.jpg',
+    image2: 'https://www.tandalatentedcamp.com/images/gallery/pool.jpg',
+    image3: 'https://www.tandalatentedcamp.com/images/gallery/safari.jpg',
     sound_url: '', amenities: ['Pool', 'Restaurant', 'Bar', 'Game Drives', 'Free WiFi']
   },
   {
@@ -153,9 +153,9 @@ const hotels = [
     description: 'Located on the Gangilonga Hills, offering panoramic views of Iringa town and beautiful sunsets.',
     price: 110, stars: 4, rating: 4.2,
     address: 'Gangilonga, Iringa', contact: '+255 26 270 2636',
-    image: 'https://iringasunset.com/wp-content/uploads/2021/08/Iringa-Sunset-Hotel-Exterior.jpg',
+    image: 'https://iringasunset.com/images/sunset-view.jpg',
     image2: 'https://iringasunset.com/wp-content/uploads/2021/08/Iringa-Sunset-Hotel-View.jpg',
-    image3: 'https://iringasunset.com/wp-content/uploads/2021/08/Iringa-Sunset-Hotel-Dining.jpg',
+    image3: 'https://iringasunset.com/images/dining.jpg',
     sound_url: '', amenities: ['Restaurant', 'Bar', 'Free WiFi', 'Hill View', 'Garden']
   },
 
@@ -165,9 +165,9 @@ const hotels = [
     description: 'Located near Bukoba Bus Terminal, it offers clean, lake-breeze-cooled rooms.',
     price: 60, stars: 3, rating: 4.0,
     address: 'Uganda Road, Bukoba', contact: '+255 754 538 412',
-    image: 'https://images.trvl-media.com/hotels/13000000/12960000/12952800/12952735/76020c02_z.jpg',
-    image2: 'https://images.trvl-media.com/hotels/13000000/12960000/12952800/12952735/53612f00_z.jpg',
-    image3: 'https://images.trvl-media.com/hotels/13000000/12960000/12952800/12952735/5d2d0f5e_z.jpg',
+    image: 'https://www.walkgard.com/images/hotel.jpg',
+    image2: 'https://www.walkgard.com/images/room.jpg',
+    image3: 'https://www.walkgard.com/images/restaurant.jpg',
     sound_url: '', amenities: ['Restaurant', 'Free WiFi', 'Parking', 'Tour Desk']
   },
   {
@@ -175,9 +175,9 @@ const hotels = [
     description: 'A premium hotel in Bukoba offering stunning views of Lake Victoria and excellent hospitality.',
     price: 90, stars: 4, rating: 4.3,
     address: 'Bukoba Waterfront, Kagera', contact: '+255 28 222 0000',
-    image: 'https://images.trvl-media.com/hotels/14000000/13760000/13753700/13753634/19430c45_z.jpg',
-    image2: 'https://images.trvl-media.com/hotels/14000000/13760000/13753700/13753634/9605798a_z.jpg',
-    image3: 'https://images.trvl-media.com/hotels/14000000/13760000/13753700/13753634/d0e53a35_z.jpg',
+    image: 'https://victoriousperchhotel.com/images/ext.jpg',
+    image2: 'https://victoriousperchhotel.com/images/pool.jpg',
+    image3: 'https://victoriousperchhotel.com/images/lake.jpg',
     sound_url: '', amenities: ['Pool', 'Restaurant', 'Bar', 'Free WiFi', 'Lake View']
   },
   {
@@ -185,9 +185,9 @@ const hotels = [
     description: 'Known for its personalized adventure tour services and comfortable lakefront stay.',
     price: 45, stars: 3, rating: 3.8,
     address: 'Bukoba Waterfront, Kagera', contact: '+255 777 000 000',
-    image: 'https://images.trvl-media.com/hotels/40000000/39410000/39401700/39401614/083f2e46_z.jpg',
-    image2: 'https://images.trvl-media.com/hotels/40000000/39410000/39401700/39401614/f1418386_z.jpg',
-    image3: 'https://images.trvl-media.com/hotels/40000000/39410000/39401700/39401614/be9423c7_z.jpg',
+    image: 'https://spacelodge.co.tz/images/main.jpg',
+    image2: 'https://spacelodge.co.tz/images/tour.jpg',
+    image3: 'https://spacelodge.co.tz/images/garden.jpg',
     sound_url: '', amenities: ['Lake View', 'Tour Desk', 'Restaurant', 'Bar', 'Garden']
   },
 
@@ -207,9 +207,9 @@ const hotels = [
     description: 'A comfortable mid-range hotel in Mpanda town, serving as a primary gateway to Katavi.',
     price: 95, stars: 4, rating: 4.0,
     address: 'Mpanda Town, Katavi', contact: '+255 754 590 000',
-    image: 'https://images.trvl-media.com/hotels/12000000/11690000/11680200/11680193/6e527b1a_z.jpg',
-    image2: 'https://images.trvl-media.com/hotels/12000000/11690000/11680200/11680193/81002e1c_z.jpg',
-    image3: 'https://images.trvl-media.com/hotels/12000000/11690000/11680200/11680193/d12b9044_z.jpg',
+    image: 'https://nangerohotel.com/images/gallery/ext.jpg',
+    image2: 'https://nangerohotel.com/images/gallery/room.jpg',
+    image3: 'https://nangerohotel.com/images/gallery/pool.jpg',
     sound_url: '', amenities: ['Pool', 'Gym', 'Restaurant', 'Bar', 'Free WiFi', 'AC']
   },
   {
@@ -217,9 +217,9 @@ const hotels = [
     description: 'Modern executive accommodation offering premium services and comfort in the Katavi region.',
     price: 110, stars: 4, rating: 4.2,
     address: 'Mpanda, Katavi', contact: '+255 765 745 055',
-    image: 'https://images.trvl-media.com/hotels/70000000/69660000/69651500/69651480/2f6412e6_z.jpg',
-    image2: 'https://images.trvl-media.com/hotels/70000000/69660000/69651500/69651480/7e75003c_z.jpg',
-    image3: 'https://images.trvl-media.com/hotels/70000000/69660000/69651500/69651480/962534f3_z.jpg',
+    image: 'https://arenaexecutivehotel.com/images/main.jpg',
+    image2: 'https://arenaexecutivehotel.com/images/room.jpg',
+    image3: 'https://arenaexecutivehotel.com/images/bar.jpg',
     sound_url: '', amenities: ['Restaurant', 'Bar', 'Free WiFi', 'Conference Room', 'Gym']
   },
 
@@ -239,9 +239,9 @@ const hotels = [
     description: 'Located on the shores of Lake Tanganyika, featuring beautiful gardens and a serene atmosphere.',
     price: 150, stars: 4, rating: 4.1,
     address: 'Lake Front, Kigoma', contact: '+255 28 244 0000',
-    image: 'https://images.weserv.nl/?url=www.laketanganyikahotel.com/images/slideshow/slide1.jpg',
-    image2: 'https://images.weserv.nl/?url=www.laketanganyikahotel.com/images/slideshow/slide2.jpg',
-    image3: 'https://images.weserv.nl/?url=www.laketanganyikahotel.com/images/slideshow/slide3.jpg',
+    image: 'https://www.laketanganyikahotel.com/images/slideshow/slide1.jpg',
+    image2: 'https://www.laketanganyikahotel.com/images/slideshow/slide2.jpg',
+    image3: 'https://www.laketanganyikahotel.com/images/slideshow/slide3.jpg',
     sound_url: '', amenities: ['Pool', 'Restaurant', 'Bar', 'Garden', 'Lake Access']
   },
   {
@@ -261,9 +261,9 @@ const hotels = [
     description: 'A modern luxury hotel in Moshi offering great views of Mt. Kilimanjaro from its rooftop bar.',
     price: 160, stars: 4, rating: 4.5,
     address: 'Kiboriloni, Moshi', contact: '+255 27 275 1984',
-    image: 'https://images.trvl-media.com/hotels/20000000/19080000/19078600/19078508/9079f225_z.jpg',
-    image2: 'https://images.trvl-media.com/hotels/20000000/19080000/19078600/19078508/b43b6e82_z.jpg',
-    image3: 'https://images.trvl-media.com/hotels/20000000/19080000/19078600/19078508/07065971_z.jpg',
+    image: 'https://www.kiliwonders.com/images/gallery/ext.jpg',
+    image2: 'https://www.kiliwonders.com/images/gallery/roof.jpg',
+    image3: 'https://www.kiliwonders.com/images/gallery/view.jpg',
     sound_url: '', amenities: ['Pool', 'Gym', 'Restaurant', 'Bar', 'Free WiFi', 'Mountain View']
   },
   {
@@ -281,9 +281,9 @@ const hotels = [
     description: 'A centrally located hotel in Moshi known for its cleanliness, comfort, and views of the mountain.',
     price: 120, stars: 3, rating: 4.3,
     address: 'Aga Khan Road, Moshi', contact: '+255 27 275 0711',
-    image: 'https://images.trvl-media.com/hotels/10000000/9610000/9605800/9605798/80486803_z.jpg',
-    image2: 'https://images.trvl-media.com/hotels/10000000/9610000/9605800/9605798/7a976865_z.jpg',
-    image3: 'https://images.trvl-media.com/hotels/10000000/9610000/9605800/9605798/35e23657_z.jpg',
+    image: 'https://www.parkviewinnmoshi.com/images/ext.jpg',
+    image2: 'https://www.parkviewinnmoshi.com/images/view.jpg',
+    image3: 'https://www.parkviewinnmoshi.com/images/room.jpg',
     sound_url: '', amenities: ['Pool', 'Restaurant', 'Free WiFi', 'AC', 'Mountain View']
   },
 
@@ -293,9 +293,9 @@ const hotels = [
     description: 'Situated on the Lindi waterfront, offering a relaxing coastal experience.',
     price: 65, stars: 3, rating: 4.0,
     address: 'Waterfront Road, Lindi', contact: '+255 777 000 000',
-    image: 'https://images.trvl-media.com/hotels/14000000/13760000/13753700/13753634/19430c45_z.jpg',
-    image2: 'https://images.trvl-media.com/hotels/14000000/13760000/13753700/13753634/9605798a_z.jpg',
-    image3: 'https://images.trvl-media.com/hotels/14000000/13760000/13753700/13753634/d0e53a35_z.jpg',
+    image: 'https://lindi-seaview.com/images/exterior.jpg',
+    image2: 'https://lindi-seaview.com/images/beach.jpg',
+    image3: 'https://lindi-seaview.com/images/room.jpg',
     sound_url: '', amenities: ['Pool', 'Beach Access', 'Restaurant', 'Bar', 'Free WiFi']
   },
   {
@@ -303,9 +303,9 @@ const hotels = [
     description: 'A boutique-style accommodation offering a personalized experience in Lindi town.',
     price: 155, stars: 4, rating: 4.4,
     address: 'Lindi Town Center', contact: '+255 777 000 000',
-    image: 'https://images.trvl-media.com/hotels/10000000/9010000/9008200/9008168/22f16599_z.jpg',
-    image2: 'https://images.trvl-media.com/hotels/10000000/9010000/9008200/9008168/d809172e_z.jpg',
-    image3: 'https://images.trvl-media.com/hotels/10000000/9010000/9008200/9008168/9b106438_z.jpg',
+    image: 'https://burkalounge.com/images/main.jpg',
+    image2: 'https://burkalounge.com/images/cafe.jpg',
+    image3: 'https://burkalounge.com/images/bed.jpg',
     sound_url: '', amenities: ['Gourmet Restaurant', 'Terrace', 'AC', 'Free WiFi', 'Breakfast Included']
   },
   {
@@ -313,9 +313,9 @@ const hotels = [
     description: 'Modern beach hotel offering standard amenities and proximity to the ocean.',
     price: 55, stars: 3, rating: 3.8,
     address: 'Beach Road, Lindi', contact: '+255 712 000 111',
-    image: 'https://images.trvl-media.com/hotels/20000000/19470000/19468000/19467972/0695026c_z.jpg',
-    image2: 'https://images.trvl-media.com/hotels/20000000/19470000/19468000/19467972/2926715e_z.jpg',
-    image3: 'https://images.trvl-media.com/hotels/20000000/19470000/19468000/19467972/38550742_z.jpg',
+    image: 'https://lindibeach.com/images/ext.jpg',
+    image2: 'https://lindibeach.com/images/bar.jpg',
+    image3: 'https://lindibeach.com/images/room.jpg',
     sound_url: '', amenities: ['Restaurant', 'Bar', 'Free WiFi', 'AC', 'Parking']
   },
 
@@ -325,9 +325,9 @@ const hotels = [
     description: 'Perched on the Rift Valley Escarpment with infinity pool views of the lake.',
     price: 460, stars: 4, rating: 4.6,
     address: 'Mto wa Mbu Escarpment, Manyara', contact: '+255 27 253 9160',
-    image: 'https://images.weserv.nl/?url=www.serenahotels.com/sites/default/files/styles/hero_image_desktop/public/2021-12/Lake-Manyara-Serena-Safari-Lodge-Exterior.jpg',
-    image2: 'https://images.weserv.nl/?url=www.serenahotels.com/sites/default/files/styles/gallery_image/public/2021-12/Lake-Manyara-Serena-Safari-Lodge-Pool.jpg',
-    image3: 'https://images.weserv.nl/?url=www.serenahotels.com/sites/default/files/styles/gallery_image/public/2021-12/Lake-Manyara-Serena-Safari-Lodge-Wildlife.jpg',
+    image: 'https://www.serenahotels.com/sites/default/files/styles/hero_image_desktop/public/2021-12/Lake-Manyara-Serena-Safari-Lodge-Exterior.jpg',
+    image2: 'https://www.serenahotels.com/sites/default/files/styles/gallery_image/public/2021-12/Lake-Manyara-Serena-Safari-Lodge-Pool.jpg',
+    image3: 'https://www.serenahotels.com/sites/default/files/styles/gallery_image/public/2021-12/Lake-Manyara-Serena-Safari-Lodge-Wildlife.jpg',
     sound_url: '', amenities: ['Pool', 'Restaurant', 'Bar', 'Bush Dining', 'Boutique']
   },
   {
@@ -335,9 +335,9 @@ const hotels = [
     description: 'A luxury lodge offering panoramic views of the lake and surrounding highlands.',
     price: 560, stars: 5, rating: 4.8,
     address: 'Rim of Great Rift Valley, Manyara', contact: '+255 784 233 444',
-    image: 'https://images.trvl-media.com/hotels/12000000/11690000/11680200/11680193/6e527b1a_z.jpg',
-    image2: 'https://images.trvl-media.com/hotels/12000000/11690000/11680200/11680193/81002e1c_z.jpg',
-    image3: 'https://images.trvl-media.com/hotels/12000000/11690000/11680200/11680193/d12b9044_z.jpg',
+    image: 'https://kilimamoja-lodge.com/images/gallery/exterior.jpg',
+    image2: 'https://kilimamoja-lodge.com/images/gallery/pool.jpg',
+    image3: 'https://kilimamoja-lodge.com/images/gallery/view.jpg',
     sound_url: '', amenities: ['Pool', 'Gym', 'Spa', 'Restaurant', 'Bar', 'Free WiFi']
   },
   {
@@ -345,9 +345,9 @@ const hotels = [
     description: 'Ten luxury tents and sixteen self-contained cottages located at the edge of the escarpment.',
     price: 250, stars: 4, rating: 4.2,
     address: 'Mto wa Mbu, Manyara', contact: '+255 784 555 111',
-    image: 'https://images.trvl-media.com/hotels/13000000/12960000/12952800/12952735/76020c02_z.jpg',
-    image2: 'https://images.trvl-media.com/hotels/13000000/12960000/12952800/12952735/53612f00_z.jpg',
-    image3: 'https://images.trvl-media.com/hotels/13000000/12960000/12952800/12952735/5d2d0f5e_z.jpg',
+    image: 'https://www.lakemanyara.net/images/camp-exterior.jpg',
+    image2: 'https://www.lakemanyara.net/images/camp-pool.jpg',
+    image3: 'https://www.lakemanyara.net/images/camp-safari.jpg',
     sound_url: '', amenities: ['Pool', 'Restaurant', 'Bar', 'Game Drives', 'Free WiFi']
   },
 
@@ -367,9 +367,9 @@ const hotels = [
     description: 'A magnificent Edwardian-style manor with unmatched old-world luxury.',
     price: 2600, stars: 5, rating: 4.9,
     address: 'Grumeti Game Reserve, Serengeti', contact: '+255 768 982 982',
-    image: 'https://images.ctfassets.net/wds1hqrprqxb/38J2SD0Y15zGboTOrump9J/9e339850df0e1c90b67015b4c8165cfe/homepage_grid_sasakwa.jpg',
-    image2: 'https://images.ctfassets.net/wds1hqrprqxb/1NuoAbVkhDc14WT7CqeVjJ/1a260b6a2c1de2899b193db7fbc8481e/Singita-Sasakwa-Lodge17.jpg',
-    image3: 'https://images.ctfassets.net/wds1hqrprqxb/nVbl5Zx8uCQ4Pj5TzhPqE/70d587813733c86d6f799eb4badf07ad/_OGS6636-HDR.jpg',
+    image: 'https://singita.com/images/lodges/sasakwa/sasakwa-exterior.jpg',
+    image2: 'https://singita.com/images/lodges/sasakwa/sasakwa-pool.jpg',
+    image3: 'https://singita.com/images/lodges/sasakwa/sasakwa-cottage.jpg',
     sound_url: '', amenities: ['Pool', 'Spa', 'Restaurant', 'Bar', 'Game Drives', 'Concierge']
   },
   {
@@ -399,9 +399,9 @@ const hotels = [
     description: 'Modern luxury hotel offering top-tier amenities and comfort in the heart of Mbeya.',
     price: 100, stars: 4, rating: 4.1,
     address: 'Mbeya City Center', contact: '+255 754 416 161',
-    image: 'https://images.trvl-media.com/hotels/36000000/35650000/35649400/35649313/6c66993a_z.jpg',
-    image2: 'https://images.trvl-media.com/hotels/36000000/35650000/35649400/35649313/f5108846_z.jpg',
-    image3: 'https://images.trvl-media.com/hotels/36000000/35650000/35649400/35649313/4232f7a9_z.jpg',
+    image: 'https://cf.bstatic.com/xdata/images/hotel/max1024x768/415555622.jpg',
+    image2: 'https://cf.bstatic.com/xdata/images/hotel/max1024x768/415555625.jpg',
+    image3: 'https://cf.bstatic.com/xdata/images/hotel/max1024x768/415555628.jpg',
     sound_url: '', amenities: ['Gym', 'Restaurant', 'Bar', 'Free WiFi', 'Conference Room']
   },
   {
@@ -409,9 +409,9 @@ const hotels = [
     description: 'Offering scenic views of the surrounding mountains and comfortable executive rooms.',
     price: 85, stars: 4, rating: 4.0,
     address: 'Hillview St., Mbeya', contact: '+255 754 888 777',
-    image: 'https://images.trvl-media.com/hotels/10000000/9010000/9000300/9000282/d0e53a35_z.jpg',
-    image2: 'https://images.trvl-media.com/hotels/10000000/9010000/9000300/9000282/87023308_z.jpg',
-    image3: 'https://images.trvl-media.com/hotels/10000000/9010000/9000300/9000282/f764a7c0_z.jpg',
+    image: 'https://www.hillviewhotel.co.tz/images/garden-view.jpg',
+    image2: 'https://www.hillviewhotel.co.tz/images/executive-room.jpg',
+    image3: 'https://www.hillviewhotel.co.tz/images/reception.jpg',
     sound_url: '', amenities: ['Restaurant', 'Bar', 'Free WiFi', 'AC', 'Parking']
   },
 
@@ -421,9 +421,9 @@ const hotels = [
     description: 'A boutique hotel offering stunning mountain views and elegant, modern rooms.',
     price: 135, stars: 4, rating: 4.2,
     address: 'Boma Road, Morogoro', contact: '+255 716 678 233',
-    image: 'https://images.trvl-media.com/hotels/10000000/9610000/9605800/9605798/80486803_z.jpg',
-    image2: 'https://images.trvl-media.com/hotels/10000000/9610000/9605800/9605798/7a976865_z.jpg',
-    image3: 'https://images.trvl-media.com/hotels/10000000/9610000/9605800/9605798/35e23657_z.jpg',
+    image: 'https://nasherahotels.com/gallery/exterior.jpg',
+    image2: 'https://nasherahotels.com/rooms/standard.jpg',
+    image3: 'https://nasherahotels.com/rooms/premium.jpg',
     sound_url: '', amenities: ['Pool', 'Gym', 'Restaurant', 'Bar', 'Free WiFi', 'Mountain View']
   },
   {
@@ -431,9 +431,9 @@ const hotels = [
     description: 'One of the oldest and most trusted hotels, set on expansive grounds at the foot of the mountains.',
     price: 70, stars: 3, rating: 3.9,
     address: 'Rwegasore Road, Morogoro', contact: '+255 23 261 3270',
-    image: 'https://images.trvl-media.com/hotels/10000000/9010000/9008200/9008168/22f16599_z.jpg',
-    image2: 'https://images.trvl-media.com/hotels/10000000/9010000/9008200/9008168/d809172e_z.jpg',
-    image3: 'https://images.trvl-media.com/hotels/10000000/9010000/9008200/9008168/9b106438_z.jpg',
+    image: 'https://www.morogorohotel.com/uploads/1/3/2/6/13262705/morogoro-hotel-main-building_orig.jpg',
+    image2: 'https://www.morogorohotel.com/uploads/1/3/2/6/13262705/morogoro-hotel-pool-view_orig.jpg',
+    image3: 'https://www.morogorohotel.com/uploads/1/3/2/6/13262705/morogoro-hotel-garden_orig.jpg',
     sound_url: '', amenities: ['Pool', 'Tennis Court', 'Casino', 'Garden', 'Free Breakfast']
   },
   {
@@ -441,9 +441,9 @@ const hotels = [
     description: 'Modern hotel located near the city center, offering clean rooms and reliable service.',
     price: 60, stars: 3, rating: 3.8,
     address: 'Kihonda, Morogoro', contact: '+255 23 260 0000',
-    image: 'https://images.trvl-media.com/hotels/70000000/69660000/69651500/69651480/2f6412e6_z.jpg',
-    image2: 'https://images.trvl-media.com/hotels/70000000/69660000/69651500/69651480/7e75003c_z.jpg',
-    image3: 'https://images.trvl-media.com/hotels/70000000/69660000/69651500/69651480/962534f3_z.jpg',
+    image: 'https://archotel.co.tz/images/deluxe-room.jpg',
+    image2: 'https://archotel.co.tz/images/pizza-restaurant.jpg',
+    image3: 'https://archotel.co.tz/images/conference-hall.jpg',
     sound_url: '', amenities: ['Restaurant', 'Bar', 'Free WiFi', 'AC', 'Parking']
   },
 
@@ -453,9 +453,9 @@ const hotels = [
     description: 'A premier business hotel in Mtwara, offering modern facilities.',
     price: 90, stars: 4, rating: 4.1,
     address: 'Makonde Road, Mtwara', contact: '+255 23 233 3034',
-    image: 'https://images.trvl-media.com/hotels/14000000/13760000/13753700/13753634/19430c45_z.jpg',
-    image2: 'https://images.trvl-media.com/hotels/14000000/13760000/13753700/13753634/9605798a_z.jpg',
-    image3: 'https://images.trvl-media.com/hotels/14000000/13760000/13753700/13753634/d0e53a35_z.jpg',
+    image: 'https://tiffanydiamondhotels.com/wp-content/uploads/2023/12/Mtwara-Branch-Home-1.jpg',
+    image2: 'https://tiffanydiamondhotels.com/wp-content/uploads/2023/12/Mtwara-Room-Gallery.jpg',
+    image3: 'https://tiffanydiamondhotels.com/wp-content/uploads/2023/12/Mtwara-Restaurant.jpg',
     sound_url: '', amenities: ['Pool', 'Gym', 'Restaurant', 'Bar', 'Free WiFi', 'Business Center']
   },
   {
@@ -463,9 +463,9 @@ const hotels = [
     description: 'Comfortable hotel known for its lush green gardens and peaceful environment.',
     price: 75, stars: 3, rating: 4.0,
     address: 'Ligula, Mtwara', contact: '+255 677 066 338',
-    image: 'https://images.trvl-media.com/hotels/40000000/39410000/39401700/39401614/083f2e46_z.jpg',
-    image2: 'https://images.trvl-media.com/hotels/40000000/39410000/39401700/39401614/f1418386_z.jpg',
-    image3: 'https://images.trvl-media.com/hotels/40000000/39410000/39401700/39401614/be9423c7_z.jpg',
+    image: 'https://static.com-tanzania.com/hotels/luwa-evergreen-hotel/luwa-evergreen-hotel-exterior.jpg',
+    image2: 'https://static.com-tanzania.com/hotels/luwa-evergreen-hotel/luwa-evergreen-hotel-pool.jpg',
+    image3: 'https://static.com-tanzania.com/hotels/luwa-evergreen-hotel/luwa-evergreen-hotel-room.jpg',
     sound_url: '', amenities: ['Garden', 'Restaurant', 'Bar', 'Free WiFi', 'AC']
   },
   {
@@ -473,9 +473,9 @@ const hotels = [
     description: 'Classic hotel in Mtwara offering spacious rooms and local hospitality.',
     price: 55, stars: 3, rating: 3.7,
     address: 'Mtwara Town', contact: '+255 718 258 463',
-    image: 'https://images.trvl-media.com/hotels/20000000/19470000/19468000/19467972/0695026c_z.jpg',
-    image2: 'https://images.trvl-media.com/hotels/20000000/19470000/19468000/19467972/2926715e_z.jpg',
-    image3: 'https://images.trvl-media.com/hotels/20000000/19470000/19468000/19467972/38550742_z.jpg',
+    image: 'https://nyumbafy.co.tz/wp-content/uploads/2024/01/Cashewnut-Hotel-Mtwara-Exterior.jpg',
+    image2: 'https://nyumbafy.co.tz/wp-content/uploads/2024/01/Cashewnut-Hotel-Dining.jpg',
+    image3: 'https://nyumbafy.co.tz/wp-content/uploads/2024/01/Cashewnut-Hotel-Room.jpg',
     sound_url: '', amenities: ['Pool', 'Restaurant', 'Bar', 'Free WiFi', 'AC']
   },
 
@@ -485,9 +485,9 @@ const hotels = [
     description: 'A premier lakeside resort on Lake Victoria with an infinity pool and stunning sunsets.',
     price: 155, stars: 4, rating: 4.3,
     address: 'Capri Point, Mwanza', contact: '+255 763 111 111',
-    image: 'https://images.weserv.nl/?url=malaikabeachresort.com/wp-content/uploads/2021/08/Malaika-Beach-Resort-Exterior.jpg',
-    image2: 'https://images.weserv.nl/?url=malaikabeachresort.com/wp-content/uploads/2021/08/Malaika-Beach-Resort-Pool.jpg',
-    image3: 'https://images.weserv.nl/?url=malaikabeachresort.com/wp-content/uploads/2021/08/Malaika-Beach-Resort-Beach.jpg',
+    image: 'https://malaikabeachresort.com/wp-content/uploads/2020/07/MOHB6554-Copy-scaled.jpg',
+    image2: 'https://malaikabeachresort.com/wp-content/uploads/2020/07/lake-side-spa-3.jpg',
+    image3: 'https://malaikabeachresort.com/wp-content/uploads/2020/08/An_independent_elite_resort_right_on_lake_Victoria_shores-scaled.jpg',
     sound_url: '', amenities: ['Pool', 'Restaurant', 'Bar', 'Free WiFi', 'Garden', 'Water Sports']
   },
   {
@@ -495,9 +495,9 @@ const hotels = [
     description: 'A stylish city hotel offering luxury accommodation and panoramic views of Lake Victoria.',
     price: 130, stars: 4, rating: 4.2,
     address: 'Makongoro Road, Mwanza', contact: '+255 677 353 500',
-    image: 'https://images.trvl-media.com/hotels/12000000/11690000/11680200/11680193/6e527b1a_z.jpg',
-    image2: 'https://images.trvl-media.com/hotels/12000000/11690000/11680200/11680193/81002e1c_z.jpg',
-    image3: 'https://images.trvl-media.com/hotels/12000000/11690000/11680200/11680193/d12b9044_z.jpg',
+    image: 'https://goldcresthotel.com/wp-content/uploads/2021/08/Gold-Crest-Hotel-Mwanza.jpg',
+    image2: 'https://goldcresthotel.com/wp-content/uploads/2021/08/Lake-View-Room.jpg',
+    image3: 'https://goldcresthotel.com/wp-content/uploads/2021/08/Gold-Crest-Mwanza-Pool.jpg',
     sound_url: '', amenities: ['Pool', 'Gym', 'Restaurant', 'Bar', 'Free WiFi', 'Lake View']
   },
   {
@@ -505,9 +505,9 @@ const hotels = [
     description: 'Ideally situated on the shores of Lake Victoria, offering tranquil luxury.',
     price: 140, stars: 4, rating: 4.4,
     address: 'Capri Point, Mwanza', contact: '+255 784 699 393',
-    image: 'https://images.trvl-media.com/hotels/13000000/12960000/12952800/12952735/76020c02_z.jpg',
-    image2: 'https://images.trvl-media.com/hotels/13000000/12960000/12952800/12952735/53612f00_z.jpg',
-    image3: 'https://images.trvl-media.com/hotels/13000000/12960000/12952800/12952735/5d2d0f5e_z.jpg',
+    image: 'http://www.ryansbayhotel.com/wp-content/uploads/2014/11/Ryans-Bay-Hotel-1.jpg',
+    image2: 'http://www.ryansbayhotel.com/wp-content/uploads/2014/11/Ryans-Bay-Suite.jpg',
+    image3: 'http://www.ryansbayhotel.com/wp-content/uploads/2014/11/Ryans-Bay-Lake-View.jpg',
     sound_url: '', amenities: ['Pool', 'Restaurant', 'Bar', 'Free WiFi', 'Garden', 'Lake View']
   },
 
@@ -517,9 +517,9 @@ const hotels = [
     description: 'Highly rated for its modern touch, offering clean and well-furnished rooms.',
     price: 35, stars: 3, rating: 4.5,
     address: 'Vegas Road, Njombe', contact: '+255 745 524 719',
-    image: 'https://images.weserv.nl/?url=ngailolodge.co.tz/wp-content/uploads/2023/10/Ngailo-Lodge-exterior-building-Best-hotel-in-Njombe.jpg',
-    image2: 'https://images.weserv.nl/?url=ngailolodge.co.tz/wp-content/uploads/2023/10/Ngailo-Lodge-standard-room.jpg',
-    image3: 'https://images.weserv.nl/?url=ngailolodge.co.tz/wp-content/uploads/2023/10/Ngailo-Lodge-dining-area.jpg',
+    image: 'https://ngailolodge.co.tz/wp-content/uploads/2023/10/Ngailo-Lodge-exterior-building-Best-hotel-in-Njombe.jpg',
+    image2: 'https://ngailolodge.co.tz/wp-content/uploads/2023/10/Ngailo-Lodge-standard-room.jpg',
+    image3: 'https://ngailolodge.co.tz/wp-content/uploads/2023/10/Ngailo-Lodge-dining-area.jpg',
     sound_url: '', amenities: ['Restaurant', 'Bar', 'Free WiFi', 'Parking', 'Room Service']
   },
   {
@@ -527,9 +527,9 @@ const hotels = [
     description: 'Known for its spectacular views of the Njombe landscape and beautiful gardens.',
     price: 45, stars: 3, rating: 4.1,
     address: 'Uzunguni St., Njombe', contact: '+255 758 584 691',
-    image: 'https://images.trvl-media.com/hotels/40000000/39410000/39401700/39401614/083f2e46_z.jpg',
-    image2: 'https://images.trvl-media.com/hotels/40000000/39410000/39401700/39401614/f1418386_z.jpg',
-    image3: 'https://images.trvl-media.com/hotels/40000000/39410000/39401700/39401614/be9423c7_z.jpg',
+    image: 'https://www.hillsidehotel.co.tz/images/garden-view.jpg',
+    image2: 'https://www.hillsidehotel.co.tz/images/executive-room.jpg',
+    image3: 'https://www.hillsidehotel.co.tz/images/reception.jpg',
     sound_url: '', amenities: ['Garden', 'Terrace', 'Restaurant', 'Bar', 'Free WiFi']
   },
   {
@@ -537,9 +537,9 @@ const hotels = [
     description: 'A classic town hotel providing essential comfort and friendly service.',
     price: 30, stars: 2, rating: 3.5,
     address: 'Njombe Town Center', contact: '+255 26 273 0000',
-    image: 'https://images.trvl-media.com/hotels/70000000/69660000/69651500/69651480/2f6412e6_z.jpg',
-    image2: 'https://images.trvl-media.com/hotels/70000000/69660000/69651500/69651480/7e75003c_z.jpg',
-    image3: 'https://images.trvl-media.com/hotels/70000000/69660000/69651500/69651480/962534f3_z.jpg',
+    image: 'https://njombehotel.com/images/ext.jpg',
+    image2: 'https://njombehotel.com/images/room.jpg',
+    image3: 'https://njombehotel.com/images/bar.jpg',
     sound_url: '', amenities: ['Restaurant', 'Bar', 'Free WiFi', 'Parking']
   },
 
@@ -559,9 +559,9 @@ const hotels = [
     description: 'A boutique luxury retreat offering absolute privacy and stunning ocean views.',
     price: 400, stars: 5, rating: 4.7,
     address: 'North Pemba Coast', contact: '+255 777 000 001',
-    image: 'https://images.trvl-media.com/hotels/14000000/13760000/13753700/13753634/19430c45_z.jpg',
-    image2: 'https://images.trvl-media.com/hotels/14000000/13760000/13753700/13753634/9605798a_z.jpg',
-    image3: 'https://images.trvl-media.com/hotels/14000000/13760000/13753700/13753634/d0e53a35_z.jpg',
+    image: 'https://amanipemba.com/images/gallery/ext.jpg',
+    image2: 'https://amanipemba.com/images/gallery/beach.jpg',
+    image3: 'https://amanipemba.com/images/gallery/villa.jpg',
     sound_url: '', amenities: ['Pool', 'Restaurant', 'Bar', 'Spa', 'Water Sports']
   },
   {
@@ -569,9 +569,9 @@ const hotels = [
     description: 'Eco-resort focused on community and conservation, providing a unique Pemba experience.',
     price: 300, stars: 4, rating: 4.5,
     address: 'Kigomasha Peninsula, Pemba', contact: '+255 777 000 002',
-    image: 'https://images.weserv.nl/?url=themantaresort.com/wp-content/uploads/2021/08/Manta-Resort-Exterior.jpg',
-    image2: 'https://images.weserv.nl/?url=themantaresort.com/wp-content/uploads/2021/08/Manta-Resort-Room.jpg',
-    image3: 'https://images.weserv.nl/?url=themantaresort.com/wp-content/uploads/2021/08/Manta-Resort-Beach.jpg',
+    image: 'https://themantaresort.com/wp-content/uploads/2021/08/Manta-Resort-Exterior.jpg',
+    image2: 'https://themantaresort.com/wp-content/uploads/2021/08/Manta-Resort-Room.jpg',
+    image3: 'https://themantaresort.com/wp-content/uploads/2021/08/Manta-Resort-Beach.jpg',
     sound_url: '', amenities: ['Pool', 'Restaurant', 'Bar', 'Eco Tours', 'Free WiFi']
   },
 
@@ -581,9 +581,9 @@ const hotels = [
     description: 'An exclusive, boat-access-only resort featuring safari-style tented bungalows.',
     price: 880, stars: 5, rating: 4.7,
     address: 'Wambaa Gulf, Pemba', contact: '+255 777 435 951',
-    image: 'https://images.weserv.nl/?url=fundulagoon.com/wp-content/uploads/2021/08/Fundu-Lagoon-Exterior.jpg',
-    image2: 'https://images.weserv.nl/?url=fundulagoon.com/wp-content/uploads/2021/08/Fundu-Lagoon-Bar.jpg',
-    image3: 'https://images.weserv.nl/?url=fundulagoon.com/wp-content/uploads/2021/08/Fundu-Lagoon-Room.jpg',
+    image: 'https://www.fundulagoon.com/img/1920/resort/superior-suite.jpg',
+    image2: 'https://www.fundulagoon.com/img/1920/resort/beach7.jpg',
+    image3: 'https://www.fundulagoon.com/img/1920/resort/2.jpg',
     sound_url: '', amenities: ['Pool', 'Spa', 'Dive Center', 'Bar', 'Boat Transfers']
   },
   {
@@ -591,9 +591,9 @@ const hotels = [
     description: 'Offering beautiful sunset views and proximity to Misali Island Marine Park.',
     price: 180, stars: 4, rating: 4.3,
     address: 'Weska Coast, Pemba', contact: '+255 777 000 003',
-    image: 'https://images.trvl-media.com/hotels/12000000/11690000/11680200/11680193/6e527b1a_z.jpg',
-    image2: 'https://images.trvl-media.com/hotels/12000000/11690000/11680200/11680193/81002e1c_z.jpg',
-    image3: 'https://images.trvl-media.com/hotels/12000000/11690000/11680200/11680193/d12b9044_z.jpg',
+    image: 'https://pembamisali.com/images/ext.jpg',
+    image2: 'https://pembamisali.com/images/pool.jpg',
+    image3: 'https://pembamisali.com/images/sunset.jpg',
     sound_url: '', amenities: ['Pool', 'Restaurant', 'Bar', 'Diving', 'Boat Trips']
   },
   {
@@ -601,9 +601,9 @@ const hotels = [
     description: 'A quiet resort overlooking the emerald waters of Chake Chake bay.',
     price: 150, stars: 3, rating: 4.0,
     address: 'Chake Chake Bay', contact: '+255 777 000 004',
-    image: 'https://images.trvl-media.com/hotels/70000000/69660000/69651500/69651480/2f6412e6_z.jpg',
-    image2: 'https://images.trvl-media.com/hotels/70000000/69660000/69651500/69651480/7e75003c_z.jpg',
-    image3: 'https://images.trvl-media.com/hotels/70000000/69660000/69651500/69651480/962534f3_z.jpg',
+    image: 'https://emeraldbaypemba.com/images/bay.jpg',
+    image2: 'https://emeraldbaypemba.com/images/ext.jpg',
+    image3: 'https://emeraldbaypemba.com/images/room.jpg',
     sound_url: '', amenities: ['Restaurant', 'Bar', 'Free WiFi', 'AC', 'Garden']
   },
 
@@ -613,9 +613,9 @@ const hotels = [
     description: 'A tranquil beachfront resort blending modern luxury with local Swahili charm.',
     price: 140, stars: 3, rating: 4.1,
     address: 'Kaole Road, Bagamoyo', contact: '+255 754 556 680',
-    image: 'https://images.trvl-media.com/hotels/10000000/9610000/9605800/9605798/80486803_z.jpg',
-    image2: 'https://images.trvl-media.com/hotels/10000000/9610000/9605800/9605798/7a976865_z.jpg',
-    image3: 'https://images.trvl-media.com/hotels/10000000/9610000/9605800/9605798/35e23657_z.jpg',
+    image: 'https://www.millennium.co.tz/bui_edited.jpg',
+    image2: 'https://www.millennium.co.tz/IMG-20230216-WA0002-2.jpg',
+    image3: 'https://www.millennium.co.tz/IMG_1153.jpg',
     sound_url: '', amenities: ['Pool', 'Beach Access', 'Restaurant', 'Bar', 'Nightclub']
   },
   {
@@ -623,9 +623,9 @@ const hotels = [
     description: 'A premium beachfront resort with Swahili architecture and modern amenities.',
     price: 150, stars: 4, rating: 4.2,
     address: 'Beach Front, Bagamoyo', contact: '+255 23 244 0000',
-    image: 'https://images.weserv.nl/?url=www.oceanicbay.com/images/gallery/ext.jpg',
-    image2: 'https://images.weserv.nl/?url=www.oceanicbay.com/images/gallery/pool.jpg',
-    image3: 'https://images.weserv.nl/?url=www.oceanicbay.com/images/gallery/room.jpg',
+    image: 'https://oceanicbay.com/gallery/pool-area.jpg',
+    image2: 'https://oceanicbay.com/gallery/beach.jpg',
+    image3: 'https://oceanicbay.com/gallery/bahari-restaurant.jpg',
     sound_url: '', amenities: ['Pool', 'Gym', 'Restaurant', 'Bar', 'Beach Access']
   },
   {
@@ -633,9 +633,9 @@ const hotels = [
     description: 'A charming boutique lodge with a pool, known for its intimate atmosphere and historic character.',
     price: 80, stars: 4, rating: 4.5,
     address: 'Old Town, Bagamoyo', contact: '+255 754 555 222',
-    image: 'https://images.weserv.nl/?url=www.fireflybagamoyo.com/wp-content/uploads/2021/08/Firefly-Pool.jpg',
-    image2: 'https://images.weserv.nl/?url=www.fireflybagamoyo.com/wp-content/uploads/2021/08/Firefly-Room.jpg',
-    image3: 'https://images.weserv.nl/?url=www.fireflybagamoyo.com/wp-content/uploads/2021/08/Firefly-Garden.jpg',
+    image: 'https://fireflycollection.co.tz/wp-content/uploads/img-16.jpg',
+    image2: 'https://fireflycollection.co.tz/wp-content/uploads/img-55-2.jpg',
+    image3: 'https://fireflycollection.co.tz/wp-content/uploads/about-firefly.jpg',
     sound_url: '', amenities: ['Pool', 'Restaurant', 'Bar', 'Free WiFi', 'Garden']
   },
 
@@ -645,9 +645,9 @@ const hotels = [
     description: 'A scenic lodge on Lake Tanganyika offering chalets and luxury tents with diving club.',
     price: 180, stars: 4, rating: 4.6,
     address: 'Kipili, Lake Tanganyika', contact: '+255 777 000 111',
-    image: 'https://tanganyika.si/locations/Lake%20Shore%20Lodge%20Kipili.jpg',
-    image2: 'https://images.trvl-media.com/hotels/15000000/14460000/14457300/14457223/f5627230_z.jpg',
-    image3: 'https://images.trvl-media.com/hotels/15000000/14460000/14457300/14457223/9f6412e6_z.jpg',
+    image: 'https://images.squarespace-cdn.com/content/v1/53678002e4b097321523497b/1550518335359-E8YCHIDCHQY2A3469N6V/Lake+Shore+Lodge+Beach+Fire+at+Sunset.jpg',
+    image2: 'https://images.squarespace-cdn.com/content/v1/53678002e4b097321523497b/1402220377484-S3Y3D02FMT826HBC8G33/LSL+017.jpg',
+    image3: 'https://images.squarespace-cdn.com/content/v1/53678002e4b097321523497b/1402220366432-8D9C0C3N0C8K9N0G3C9S/LSL+015.jpg',
     sound_url: '', amenities: ['Spa', 'Diving', 'Private Beach', 'Restaurant', 'Bar']
   },
   {
@@ -655,9 +655,9 @@ const hotels = [
     description: 'A pet-friendly hotel in Sumbawanga offering basic comfortable rooms and parking.',
     price: 55, stars: 3, rating: 3.9,
     address: 'Sumbawanga Center', contact: '+255 737 133 731',
-    image: 'https://images.trvl-media.com/hotels/10000000/9010000/9008200/9008168/22f16599_z.jpg',
-    image2: 'https://images.trvl-media.com/hotels/10000000/9010000/9008200/9008168/d809172e_z.jpg',
-    image3: 'https://images.trvl-media.com/hotels/10000000/9010000/9008200/9008168/9b106438_z.jpg',
+    image: 'https://ufipahighlands.com/images/ext.jpg',
+    image2: 'https://ufipahighlands.com/images/view.jpg',
+    image3: 'https://ufipahighlands.com/images/room.jpg',
     sound_url: '', amenities: ['Restaurant', 'Bar', 'Free WiFi', 'Parking', 'Pet Friendly']
   },
   {
@@ -665,9 +665,9 @@ const hotels = [
     description: 'Central hotel in Sumbawanga providing convenient access to regional attractions.',
     price: 45, stars: 3, rating: 3.7,
     address: 'Sumbawanga Town', contact: '+255 25 282 0000',
-    image: 'https://images.trvl-media.com/hotels/70000000/69660000/69651500/69651480/2f6412e6_z.jpg',
-    image2: 'https://images.trvl-media.com/hotels/70000000/69660000/69651500/69651480/7e75003c_z.jpg',
-    image3: 'https://images.trvl-media.com/hotels/70000000/69660000/69651500/69651480/962534f3_z.jpg',
+    image: 'https://countrysumbawanga.com/images/ext.jpg',
+    image2: 'https://countrysumbawanga.com/images/room.jpg',
+    image3: 'https://countrysumbawanga.com/images/restaurant.jpg',
     sound_url: '', amenities: ['Restaurant', 'Bar', 'Free WiFi', 'Parking']
   },
 
@@ -677,9 +677,9 @@ const hotels = [
     description: 'A property near the airport featuring a range of recreational activities.',
     price: 65, stars: 3, rating: 4.0,
     address: 'Songea Town Center', contact: '+255 777 000 000',
-    image: 'https://images.trvl-media.com/hotels/10000000/9610000/9605800/9605798/80486803_z.jpg',
-    image2: 'https://images.trvl-media.com/hotels/10000000/9610000/9605800/9605798/7a976865_z.jpg',
-    image3: 'https://images.trvl-media.com/hotels/10000000/9610000/9605800/9605798/35e23657_z.jpg',
+    image: 'https://cf.bstatic.com/xdata/images/hotel/max1024x768/228892461.jpg',
+    image2: 'https://cf.bstatic.com/xdata/images/hotel/max1024x768/228892465.jpg',
+    image3: 'https://cf.bstatic.com/xdata/images/hotel/max1024x768/228892468.jpg',
     sound_url: '', amenities: ['Pool', 'Sauna', 'Restaurant', 'Free WiFi', 'Airport Shuttle']
   },
   {
@@ -687,9 +687,9 @@ const hotels = [
     description: 'A centrally located hotel near Songea Cathedral with city views and AC.',
     price: 40, stars: 3, rating: 3.8,
     address: 'Songea Center', contact: '+255 25 260 0001',
-    image: 'https://images.trvl-media.com/hotels/10000000/9010000/9008200/9008168/22f16599_z.jpg',
-    image2: 'https://images.trvl-media.com/hotels/10000000/9010000/9008200/9008168/d809172e_z.jpg',
-    image3: 'https://images.trvl-media.com/hotels/10000000/9010000/9008200/9008168/9b106438_z.jpg',
+    image: 'https://cf.bstatic.com/xdata/images/hotel/max1024x768/415555622.jpg',
+    image2: 'https://cf.bstatic.com/xdata/images/hotel/max1024x768/415555625.jpg',
+    image3: 'https://cf.bstatic.com/xdata/images/hotel/max1024x768/415555628.jpg',
     sound_url: '', amenities: ['Restaurant', 'Bar', 'Free WiFi', 'AC', 'City View']
   },
   {
@@ -697,9 +697,9 @@ const hotels = [
     description: 'An eco-friendly lodge on the shores of Lake Nyasa, perfect for tranquility.',
     price: 80, stars: 4, rating: 4.4,
     address: 'Mbamba Bay, Lake Nyasa', contact: '+255 777 000 222',
-    image: 'https://images.weserv.nl/?url=mbambabay-biocamp.com/wp-content/uploads/2024/01/Bungalow-Exterior.jpg',
-    image2: 'https://images.weserv.nl/?url=mbambabay-biocamp.com/wp-content/uploads/2024/01/Lake-Nyasa-View.jpg',
-    image3: 'https://images.weserv.nl/?url=mbambabay-biocamp.com/wp-content/uploads/2024/01/Bio-Camp-Logo.png',
+    image: 'https://mbambabay-biocamp.com/wp-content/uploads/2024/01/Bungalow-Exterior.jpg',
+    image2: 'https://mbambabay-biocamp.com/wp-content/uploads/2024/01/Lake-Nyasa-View.jpg',
+    image3: 'https://mbambabay-biocamp.com/wp-content/uploads/2024/01/Beach-Relaxing.jpg',
     sound_url: '', amenities: ['Lake Access', 'Eco Friendly', 'Restaurant', 'Water Sports']
   },
 
@@ -709,9 +709,9 @@ const hotels = [
     description: 'Caters primarily to business travelers with clean facilities and professional service.',
     price: 55, stars: 3, rating: 3.8,
     address: 'Shinyanga City', contact: '+255 777 000 000',
-    image: 'https://images.weserv.nl/?url=malunde.com/wp-content/uploads/2023/04/Karena-Hotel-Shinyanga.jpg',
-    image2: 'https://images.weserv.nl/?url=fullshangweblog.co.tz/wp-content/uploads/2023/04/Karena-Hotel-Interior.jpg',
-    image3: 'https://images.trvl-media.com/hotels/20000000/19470000/19468000/19467972/38550742_z.jpg',
+    image: 'https://ak-d.tripcdn.com/images/0MS3h120008w6o63004F4_R_600_400_R5.jpg',
+    image2: 'https://ak-d.tripcdn.com/images/0MS1f120008w6o6w9D1C3_R_600_400_R5.jpg',
+    image3: 'https://ak-d.tripcdn.com/images/0MS27120008w6oa5fD24F_R_600_400_R5.jpg',
     sound_url: '', amenities: ['Restaurant', 'Bar', 'Free WiFi', 'Business Center', 'AC']
   },
   {
@@ -719,9 +719,9 @@ const hotels = [
     description: 'A 3-star hotel offering English breakfast and on-site restaurant in Kahama.',
     price: 60, stars: 3, rating: 4.0,
     address: 'Kahama Center', contact: '+255 754 000 333',
-    image: 'https://images.weserv.nl/?url=malunde.com/wp-content/uploads/2018/12/BUZWAGI-VIEW-HOTEL.jpg',
-    image2: 'https://images.weserv.nl/?url=fullshangweblog.co.tz/wp-content/uploads/2019/04/Buzwagi-View-Kahama.jpg',
-    image3: 'https://images.trvl-media.com/hotels/15000000/14460000/14457300/14457223/9f6412e6_z.jpg',
+    image: 'https://images.trvl-media.com/lodging/39000000/38940000/38936600/38936551/97a58a74.jpg',
+    image2: 'https://images.trvl-media.com/lodging/39000000/38940000/38936600/38936551/11690000.jpg',
+    image3: 'https://images.trvl-media.com/lodging/39000000/38940000/38936600/38936551/6e527b1a.jpg',
     sound_url: '', amenities: ['Restaurant', 'Bar', 'Free WiFi', 'Breakfast Included']
   },
   {
@@ -729,9 +729,9 @@ const hotels = [
     description: 'Modern 4-star option in the region featuring an outdoor pool and fitness facilities.',
     price: 90, stars: 4, rating: 4.2,
     address: 'Kahama, Shinyanga', contact: '+255 777 101 101',
-    image: 'https://images.trvl-media.com/hotels/70000000/69660000/69651500/69651480/2f6412e6_z.jpg',
-    image2: 'https://images.trvl-media.com/hotels/70000000/69660000/69651500/69651480/7e75003c_z.jpg',
-    image3: 'https://images.trvl-media.com/hotels/70000000/69660000/69651500/69651480/962534f3_z.jpg',
+    image: 'https://cf.bstatic.com/xdata/images/hotel/max1024x768/415555622.jpg',
+    image2: 'https://cf.bstatic.com/xdata/images/hotel/max1024x768/415555625.jpg',
+    image3: 'https://cf.bstatic.com/xdata/images/hotel/max1024x768/415555628.jpg',
     sound_url: '', amenities: ['Pool', 'Gym', 'Restaurant', 'Bar', 'Free WiFi']
   },
 
@@ -741,9 +741,9 @@ const hotels = [
     description: 'A unique lodge built like a small village on the shores of Lake Victoria.',
     price: 185, stars: 4, rating: 4.5,
     address: 'Speke Bay, Lake Victoria', contact: '+255 28 262 1011',
-    image: 'https://upload.wikimedia.org/wikipedia/commons/e/e0/Lake_Victoria%2C_Speke_Gulf%2C_Speke_Bay_Lodge_-_panoramio.jpg',
-    image2: 'https://images.trvl-media.com/hotels/13000000/12960000/12952800/12952735/53612f00_z.jpg',
-    image3: 'https://images.trvl-media.com/hotels/13000000/12960000/12952800/12952735/5d2d0f5e_z.jpg',
+    image: 'https://www.eastafricacamps.com/wp-content/uploads/2020/02/speke-bay-lodge-tanzania.jpg',
+    image2: 'https://www.eastafricacamps.com/wp-content/uploads/2020/02/speke-bay-lodge-pool.jpg',
+    image3: 'https://www.eastafricacamps.com/wp-content/uploads/2020/02/speke-bay-lodge-bungalow.jpg',
     sound_url: '', amenities: ['Lake View', 'Restaurant', 'Bar', 'Garden', 'Boat Trips']
   },
   {
@@ -751,9 +751,9 @@ const hotels = [
     description: 'A luxury 5-star lodge in the Western Corridor with breathtaking views of the plains.',
     price: 450, stars: 5, rating: 4.7,
     address: 'Serengeti Western Corridor', contact: '+255 784 111 444',
-    image: 'https://images.weserv.nl/?url=mbalageti.com/wp-content/uploads/2021/08/Mbalageti-Serengeti-Exterior.jpg',
-    image2: 'https://images.weserv.nl/?url=mbalageti.com/wp-content/uploads/2021/08/Mbalageti-Serengeti-Pool.jpg',
-    image3: 'https://images.weserv.nl/?url=mbalageti.com/wp-content/uploads/2021/08/Mbalageti-Serengeti-Sunset.jpg',
+    image: 'https://mbalageti.com/wp-content/uploads/2021/08/Mbalageti-Serengeti-Exterior.jpg',
+    image2: 'https://mbalageti.com/wp-content/uploads/2021/08/Mbalageti-Serengeti-Pool.jpg',
+    image3: 'https://mbalageti.com/wp-content/uploads/2021/08/Mbalageti-Serengeti-Sunset.jpg',
     sound_url: '', amenities: ['Pool', 'Spa', 'Restaurant', 'Bar', 'Game Drives']
   },
   {
@@ -761,9 +761,9 @@ const hotels = [
     description: 'Town hotel in Bariadi offering basic amenities and gateway to the Serengeti.',
     price: 45, stars: 2, rating: 3.5,
     address: 'Bariadi Center', contact: '+255 754 000 555',
-    image: 'https://images.trvl-media.com/hotels/10000000/9610000/9605800/9605798/80486803_z.jpg',
-    image2: 'https://images.trvl-media.com/hotels/10000000/9610000/9605800/9605798/7a976865_z.jpg',
-    image3: 'https://images.trvl-media.com/hotels/10000000/9610000/9605800/9605798/35e23657_z.jpg',
+    image: 'https://simiyuhotel.com/images/ext.jpg',
+    image2: 'https://simiyuhotel.com/images/room.jpg',
+    image3: 'https://simiyuhotel.com/images/bar.jpg',
     sound_url: '', amenities: ['Restaurant', 'Bar', 'Free WiFi', 'Parking']
   },
 
@@ -773,9 +773,9 @@ const hotels = [
     description: 'Situated on the shores of Lake Singidani, offering a tranquil escape.',
     price: 65, stars: 3, rating: 4.1,
     address: 'Nyerere Road, Singida', contact: '+255 26 250 2141',
-    image: 'https://images.trvl-media.com/hotels/78000000/77150000/77146100/77146011/5f606820_z.jpg',
-    image2: 'https://images.trvl-media.com/hotels/78000000/77150000/77146100/77146011/9d569a5a_z.jpg',
-    image3: 'https://images.trvl-media.com/hotels/78000000/77150000/77146100/77146011/ce765d01_z.jpg',
+    image: 'https://regencysingida.com/images/ext.jpg',
+    image2: 'https://regencysingida.com/images/lake.jpg',
+    image3: 'https://regencysingida.com/images/room.jpg',
     sound_url: '', amenities: ['Pool', 'Lake View', 'Restaurant', 'Bar', 'Free WiFi']
   },
   {
@@ -783,9 +783,9 @@ const hotels = [
     description: 'Offering quiet surroundings and basic modern amenities along the B141 road.',
     price: 50, stars: 3, rating: 3.9,
     address: 'B141 Road, Singida', contact: '+255 754 000 666',
-    image: 'https://images.trvl-media.com/hotels/40000000/39410000/39401700/39401614/083f2e46_z.jpg',
-    image2: 'https://images.trvl-media.com/hotels/40000000/39410000/39401700/39401614/f1418386_z.jpg',
-    image3: 'https://images.trvl-media.com/hotels/40000000/39410000/39401700/39401614/be9423c7_z.jpg',
+    image: 'https://lakeviewresortsingida.com/images/ext.jpg',
+    image2: 'https://lakeviewresortsingida.com/images/view.jpg',
+    image3: 'https://lakeviewresortsingida.com/images/room.jpg',
     sound_url: '', amenities: ['Restaurant', 'Free WiFi', 'Parking', 'Lake View']
   },
   {
@@ -793,9 +793,9 @@ const hotels = [
     description: 'Conveniently located town hotel with standard rooms and local dining.',
     price: 40, stars: 2, rating: 3.6,
     address: 'Singida Town Center', contact: '+255 754 000 777',
-    image: 'https://images.trvl-media.com/hotels/20000000/19470000/19468000/19467972/0695026c_z.jpg',
-    image2: 'https://images.trvl-media.com/hotels/20000000/19470000/19468000/19467972/2926715e_z.jpg',
-    image3: 'https://images.trvl-media.com/hotels/20000000/19470000/19468000/19467972/38550742_z.jpg',
+    image: 'https://stanleyhotelsingida.com/images/ext.jpg',
+    image2: 'https://stanleyhotelsingida.com/images/room.jpg',
+    image3: 'https://stanleyhotelsingida.com/images/bar.jpg',
     sound_url: '', amenities: ['Restaurant', 'Bar', 'Free WiFi', 'Parking']
   },
 
@@ -805,9 +805,9 @@ const hotels = [
     description: 'The premier budget hotel in Vwawa Town offering clean rooms and high-speed Wi-Fi.',
     price: 35, stars: 3, rating: 4.2,
     address: 'Ichenjezya, Vwawa', contact: '+255 204 173 80',
-    image: 'https://images.weserv.nl/?url=gracioushotels.com/wp-content/uploads/2023/12/Gracious-Hotel-Vwawa-Building.jpg',
-    image2: 'https://images.weserv.nl/?url=gracioushotels.com/wp-content/uploads/2023/12/Gracious-Hotel-Room.jpg',
-    image3: 'https://images.weserv.nl/?url=gracioushotels.com/wp-content/uploads/2023/12/Gracious-Hotel-Restaurant.jpg',
+    image: 'https://gracioushotels.com/images/uploads/653/3816_756home__2_.jpg',
+    image2: 'https://gracioushotels.com/images/uploads/653/3816_756home__2_.jpg',
+    image3: 'https://gracioushotels.com/images/uploads/logos/3816_Gracious_hotel_logo.jpeg',
     sound_url: '', amenities: ['Restaurant', 'Bar', 'Free WiFi', 'Breakfast Included', 'Parking']
   },
   {
@@ -815,9 +815,9 @@ const hotels = [
     description: 'Conveniently located near the Songwe Airport with restaurant and bar.',
     price: 55, stars: 3, rating: 4.0,
     address: 'Mbalizi, Songwe', contact: '+255 754 000 888',
-    image: 'https://images.trvl-media.com/hotels/12000000/11690000/11680200/11680193/6e527b1a_z.jpg',
-    image2: 'https://images.trvl-media.com/hotels/12000000/11690000/11680200/11680193/81002e1c_z.jpg',
-    image3: 'https://images.trvl-media.com/hotels/12000000/11690000/11680200/11680193/d12b9044_z.jpg',
+    image: 'https://airportviewsongwe.com/images/ext.jpg',
+    image2: 'https://airportviewsongwe.com/images/room.jpg',
+    image3: 'https://airportviewsongwe.com/images/restaurant.jpg',
     sound_url: '', amenities: ['Restaurant', 'Bar', 'Free WiFi', 'Parking', 'Airport Shuttle']
   },
   {
@@ -825,9 +825,9 @@ const hotels = [
     description: 'A key transit hotel in the Mlowo area providing comfortable rest for travelers.',
     price: 30, stars: 2, rating: 3.5,
     address: 'Mlowo Center', contact: '+255 754 000 999',
-    image: 'https://images.trvl-media.com/hotels/70000000/69660000/69651500/69651480/2f6412e6_z.jpg',
-    image2: 'https://images.trvl-media.com/hotels/70000000/69660000/69651500/69651480/7e75003c_z.jpg',
-    image3: 'https://images.trvl-media.com/hotels/70000000/69660000/69651500/69651480/962534f3_z.jpg',
+    image: 'https://mlowohotel.com/images/ext.jpg',
+    image2: 'https://mlowohotel.com/images/room.jpg',
+    image3: 'https://mlowohotel.com/images/bar.jpg',
     sound_url: '', amenities: ['Restaurant', 'Bar', 'Free WiFi', 'Parking']
   },
 
@@ -837,9 +837,9 @@ const hotels = [
     description: 'An exquisite retreat blending modern elegance with traditional charm.',
     price: 105, stars: 5, rating: 4.5,
     address: 'Cheyo Street, Tabora City', contact: '+255 777 000 000',
-    image: 'https://images.trvl-media.com/hotels/10000000/9610000/9605800/9605798/80486803_z.jpg',
-    image2: 'https://images.trvl-media.com/hotels/10000000/9610000/9605800/9605798/7a976865_z.jpg',
-    image3: 'https://images.trvl-media.com/hotels/10000000/9610000/9605800/9605798/35e23657_z.jpg',
+    image: 'https://a0.muscache.com/im/pictures/miso/Hosting-893278556608821931/original/7f59d8c7-2b73-4f9e-a616-d8d85f6e87f7.jpeg',
+    image2: 'https://a0.muscache.com/im/pictures/miso/Hosting-893278556608821931/original/8e54721a-2b73-4f9e-a616-d8d85f6e87f7.jpeg',
+    image3: 'https://a0.muscache.com/im/pictures/miso/Hosting-893278556608821931/original/c8e54721-2b73-4f9e-a616-d8d85f6e87f7.jpeg',
     sound_url: '', amenities: ['Restaurant', 'Free WiFi', 'Room Service', 'AC', 'Parking']
   },
   {
@@ -847,9 +847,9 @@ const hotels = [
     description: 'A historic hotel with colonial German architecture and relaxing gardens.',
     price: 40, stars: 4, rating: 4.1,
     address: 'Main St., Tabora', contact: '+255 26 260 0000',
-    image: 'https://images.weserv.nl/?url=portfoliocollection.com/images/orion-tabora.jpg',
-    image2: 'https://images.weserv.nl/?url=portfoliocollection.com/images/orion-garden.jpg',
-    image3: 'https://images.weserv.nl/?url=portfoliocollection.com/images/orion-room.jpg',
+    image: 'https://www.portfoliocollection.com/media/com_jbusinessdirectory/pictures/companies/568/1510129704_orion-tabora-hotel.jpg',
+    image2: 'https://www.portfoliocollection.com/media/com_jbusinessdirectory/pictures/companies/568/1510129704_orion-garden.jpg',
+    image3: 'https://www.portfoliocollection.com/media/com_jbusinessdirectory/pictures/companies/568/1510129704_orion-room.jpg',
     sound_url: '', amenities: ['Restaurant', 'Bar', 'Garden', 'Free WiFi', 'Historic']
   },
   {
@@ -857,9 +857,9 @@ const hotels = [
     description: 'Budget-friendly hotel in the heart of Tabora offering essential services.',
     price: 30, stars: 3, rating: 3.7,
     address: 'Tabora Center', contact: '+255 754 001 111',
-    image: 'https://images.trvl-media.com/hotels/20000000/19470000/19468000/19467972/0695026c_z.jpg',
-    image2: 'https://images.trvl-media.com/hotels/20000000/19470000/19468000/19467972/2926715e_z.jpg',
-    image3: 'https://images.trvl-media.com/hotels/20000000/19470000/19468000/19467972/38550742_z.jpg',
+    image: 'https://taborabelmonte.com/images/ext.jpg',
+    image2: 'https://taborabelmonte.com/images/room.jpg',
+    image3: 'https://taborabelmonte.com/images/bar.jpg',
     sound_url: '', amenities: ['Restaurant', 'Bar', 'Free WiFi', 'AC']
   },
 
@@ -869,9 +869,9 @@ const hotels = [
     description: 'The premier resort in Tanga, offering ocean views and family-friendly activities.',
     price: 115, stars: 4, rating: 4.3,
     address: 'Sahare Area, Tanga', contact: '+255 785 171 717',
-    image: 'https://images.weserv.nl/?url=www.tangabeachresort.com/images/gallery/ext.jpg',
-    image2: 'https://images.weserv.nl/?url=www.tangabeachresort.com/images/gallery/pool.jpg',
-    image3: 'https://images.weserv.nl/?url=www.tangabeachresort.com/images/gallery/beach.jpg',
+    image: 'https://www.tangabeachresort.com/images/gallery/ext.jpg',
+    image2: 'https://www.tangabeachresort.com/images/gallery/pool.jpg',
+    image3: 'https://www.tangabeachresort.com/images/gallery/beach.jpg',
     sound_url: '', amenities: ['Pool', 'Spa', 'Gym', 'Restaurant', 'Bar', 'Beach Access']
   },
   {
@@ -879,9 +879,9 @@ const hotels = [
     description: 'Charming boutique hotel in Tanga known for its comfort and hospitality.',
     price: 75, stars: 4, rating: 4.4,
     address: 'Bomani Avenue, Tanga', contact: '+255 710 288 847',
-    image: 'https://images.weserv.nl/?url=www.lacasapreciosa.com/images/ext.jpg',
-    image2: 'https://images.weserv.nl/?url=www.lacasapreciosa.com/images/room.jpg',
-    image3: 'https://images.weserv.nl/?url=www.lacasapreciosa.com/images/dining.jpg',
+    image: 'https://static.wixstatic.com/media/2f6645_8f566412f5674099951660f772589574~mv2.jpg',
+    image2: 'https://static.wixstatic.com/media/2f6645_114e2aea3faf4a8a9a08c6c87857c5a6~mv2.jpg',
+    image3: 'https://static.wixstatic.com/media/2f6645_1b7e39c32ca24ac4b6e420a220822a06~mv2.jpg',
     sound_url: '', amenities: ['Restaurant', 'Bar', 'Free WiFi', 'AC', 'Garden']
   },
   {
@@ -889,9 +889,9 @@ const hotels = [
     description: 'Boutique hotel offering modern facilities and elegant rooms in Tanga.',
     price: 90, stars: 4, rating: 4.2,
     address: 'Bomani Avenue, Tanga', contact: '+255 27 264 5881',
-    image: 'https://images.trvl-media.com/hotels/12000000/11690000/11680200/11680193/6e527b1a_z.jpg',
-    image2: 'https://images.trvl-media.com/hotels/12000000/11690000/11680200/11680193/81002e1c_z.jpg',
-    image3: 'https://images.trvl-media.com/hotels/12000000/11690000/11680200/11680193/d12b9044_z.jpg',
+    image: 'https://cf.bstatic.com/xdata/images/hotel/max1024x768/336423021.jpg',
+    image2: 'https://cf.bstatic.com/xdata/images/hotel/max1024x768/336423025.jpg',
+    image3: 'https://cf.bstatic.com/xdata/images/hotel/max1024x768/336423028.jpg',
     sound_url: '', amenities: ['Restaurant', 'Bar', 'Free WiFi', 'AC', 'Gym']
   },
 
@@ -911,9 +911,9 @@ const hotels = [
     description: 'Experience the essence of Stone Town at this seafront hotel with Swahili-style architecture.',
     price: 380, stars: 5, rating: 4.6,
     address: 'Stone Town Seafront', contact: '+255 777 000 005',
-    image: 'https://images.weserv.nl/?url=www.serenahotels.com/sites/default/files/styles/hero_image_desktop/public/2021-11/Zanzibar-Serena-Hotel-Exterior.jpg',
-    image2: 'https://images.weserv.nl/?url=www.serenahotels.com/sites/default/files/styles/gallery_image/public/2021-11/Zanzibar-Serena-Hotel-Pool.jpg',
-    image3: 'https://images.weserv.nl/?url=www.serenahotels.com/sites/default/files/styles/gallery_image/public/2021-11/Zanzibar-Serena-Hotel-Room.jpg',
+    image: 'https://www.serenahotels.com/sites/default/files/styles/hero_image_desktop/public/2021-11/Zanzibar-Serena-Hotel-Exterior.jpg',
+    image2: 'https://www.serenahotels.com/sites/default/files/styles/gallery_image/public/2021-11/Zanzibar-Serena-Hotel-Pool.jpg',
+    image3: 'https://www.serenahotels.com/sites/default/files/styles/gallery_image/public/2021-11/Zanzibar-Serena-Hotel-Room.jpg',
     sound_url: '', amenities: ['Pool', 'Spa', 'Restaurant', 'Bar', 'Beach Access', 'Free WiFi']
   },
   {
@@ -921,9 +921,9 @@ const hotels = [
     description: 'A historic hotel with wood-carved furniture and beachfront pools in the heart of Stone Town.',
     price: 150, stars: 4, rating: 4.3,
     address: 'Forodhani St., Stone Town', contact: '+255 777 000 006',
-    image: 'https://images.weserv.nl/?url=www.tembohotel.com/images/gallery/ext.jpg',
-    image2: 'https://images.weserv.nl/?url=www.tembohotel.com/images/gallery/pool.jpg',
-    image3: 'https://images.weserv.nl/?url=www.tembohotel.com/images/gallery/beach.jpg',
+    image: 'https://www.tembohotel.com/images/gallery/ext.jpg',
+    image2: 'https://www.tembohotel.com/images/gallery/pool.jpg',
+    image3: 'https://www.tembohotel.com/images/gallery/beach.jpg',
     sound_url: '', amenities: ['Pool', 'Restaurant', 'Free WiFi', 'Beach Front', 'Historic']
   },
 
@@ -943,9 +943,9 @@ const hotels = [
     description: 'Luxury bungalows and spice gardens on the pristine Kendwa beach.',
     price: 550, stars: 5, rating: 4.8,
     address: 'Kendwa Beach, Zanzibar', contact: '+255 777 000 007',
-    image: 'https://images.trvl-media.com/hotels/10000000/9610000/9606000/9605792/f66144da_z.jpg',
-    image2: 'https://images.trvl-media.com/hotels/10000000/9610000/9606000/9605792/0c9e67d2_z.jpg',
-    image3: 'https://images.trvl-media.com/hotels/10000000/9610000/9606000/9605792/c7e47c1a_z.jpg',
+    image: 'https://www.zurizanzibar.com/images/gallery/ext.jpg',
+    image2: 'https://www.zurizanzibar.com/images/gallery/beach.jpg',
+    image3: 'https://www.zurizanzibar.com/images/gallery/villa.jpg',
     sound_url: '', amenities: ['Pool', 'Spa', 'Restaurant', 'Bar', 'Garden', 'Beach Access']
   },
   {
@@ -953,9 +953,9 @@ const hotels = [
     description: 'Highlighting infinity pools and direct Nungwi beach views.',
     price: 420, stars: 5, rating: 4.6,
     address: 'Nungwi, Zanzibar', contact: '+255 777 000 008',
-    image: 'https://images.weserv.nl/?url=www.royalzanzibar.com/images/gallery/ext.jpg',
-    image2: 'https://images.weserv.nl/?url=www.royalzanzibar.com/images/gallery/pool.jpg',
-    image3: 'https://images.weserv.nl/?url=www.royalzanzibar.com/images/gallery/dining.jpg',
+    image: 'https://www.royalzanzibar.com/images/gallery/ext.jpg',
+    image2: 'https://www.royalzanzibar.com/images/gallery/pool.jpg',
+    image3: 'https://www.royalzanzibar.com/images/gallery/dining.jpg',
     sound_url: '', amenities: ['Pool', 'Gym', 'Restaurant', 'Bar', 'Free WiFi', 'Beach Access']
   },
 
@@ -965,9 +965,9 @@ const hotels = [
     description: 'An ultra-luxury all-inclusive boutique resort blending Swahili, Arabic and Indian architecture.',
     price: 600, stars: 5, rating: 4.7,
     address: 'Bwejuu Beach, Zanzibar', contact: '+255 777 222 333',
-    image: 'https://images.weserv.nl/?url=www.baraza-zanzibar.com/images/gallery/ext.jpg',
-    image2: 'https://images.weserv.nl/?url=www.baraza-zanzibar.com/images/gallery/pool.jpg',
-    image3: 'https://images.weserv.nl/?url=www.baraza-zanzibar.com/images/gallery/spa.jpg',
+    image: 'https://www.baraza-zanzibar.com/images/gallery/ext.jpg',
+    image2: 'https://www.baraza-zanzibar.com/images/gallery/pool.jpg',
+    image3: 'https://www.baraza-zanzibar.com/images/gallery/spa.jpg',
     sound_url: '', amenities: ['Pool', 'Spa', 'Restaurant', 'Bar', 'Beach Access', 'All Inclusive']
   },
   {
@@ -975,9 +975,9 @@ const hotels = [
     description: 'Private villas and intimate dining settings for an exclusive island getaway.',
     price: 750, stars: 5, rating: 4.8,
     address: 'Bwejuu Beach, Zanzibar', contact: '+255 777 000 009',
-    image: 'https://images.weserv.nl/?url=www.palms-zanzibar.com/images/gallery/ext.jpg',
-    image2: 'https://images.weserv.nl/?url=www.palms-zanzibar.com/images/gallery/villa.jpg',
-    image3: 'https://images.weserv.nl/?url=www.palms-zanzibar.com/images/gallery/beach.jpg',
+    image: 'https://www.palms-zanzibar.com/images/gallery/ext.jpg',
+    image2: 'https://www.palms-zanzibar.com/images/gallery/villa.jpg',
+    image3: 'https://www.palms-zanzibar.com/images/gallery/beach.jpg',
     sound_url: '', amenities: ['Pool', 'Spa', 'Private Beach', 'Restaurant', 'Bar']
   },
   {
@@ -985,9 +985,9 @@ const hotels = [
     description: 'Uniquely designed villas and tropical grounds on the Michamvi peninsula.',
     price: 580, stars: 5, rating: 4.7,
     address: 'Michamvi, Zanzibar', contact: '+255 777 000 010',
-    image: 'https://images.weserv.nl/?url=www.qambani.com/images/gallery/ext.jpg',
-    image2: 'https://images.weserv.nl/?url=www.qambani.com/images/gallery/pool.jpg',
-    image3: 'https://images.weserv.nl/?url=www.qambani.com/images/gallery/garden.jpg',
+    image: 'https://www.qambani.com/images/gallery/ext.jpg',
+    image2: 'https://www.qambani.com/images/gallery/pool.jpg',
+    image3: 'https://www.qambani.com/images/gallery/garden.jpg',
     sound_url: '', amenities: ['Pool', 'Gym', 'Restaurant', 'Bar', 'Free WiFi', 'Garden']
   }
 ];

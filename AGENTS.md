@@ -50,6 +50,7 @@ hotel-recommendation/
 - [x] Connect frontend JS to live API instead of local HOTELS array
 - [x] Hotel detail page: review cards are dynamic from DB
 - [x] Scraped and integrated real hotel data and official images
+- [x] Verified and stabilized all 93 hotel image URLs (replaced unstable proxies/placeholders)
 
 ## Known Issues & Pending
 
