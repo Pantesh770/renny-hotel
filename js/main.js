@@ -1,3 +1,27 @@
+const FALLBACK_IMGS = [
+  'https://images.unsplash.com/photo-1566073771259-6a8506099945?w=600',
+  'https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=600',
+  'https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=600',
+  'https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?w=600',
+  'https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?w=600',
+  'https://images.unsplash.com/photo-1549638441-b787d2e11f14?w=600',
+  'https://images.unsplash.com/photo-1596436889106-be35e843f974?w=600',
+  'https://images.unsplash.com/photo-1586500036706-41963de24d8b?w=600',
+  'https://images.unsplash.com/photo-1516426122078-c23e76319801?w=600',
+  'https://images.unsplash.com/photo-1549880338-65ddcdfd017b?w=600'
+];
+window.imgFallback = function(img, idx) {
+  if (!img.dataset.fb) {
+    img.dataset.fb = 'proxy';
+    const orig = img.src;
+    img.src = 'https://images.weserv.nl/?url=' + encodeURIComponent(orig.replace(/^https?:\/\//, ''));
+  } else if (img.dataset.fb === 'proxy') {
+    img.dataset.fb = 'done';
+    img.src = FALLBACK_IMGS[parseInt(idx || 0) % FALLBACK_IMGS.length];
+    img.onerror = null;
+  }
+};
+
 document.addEventListener('DOMContentLoaded', async function() {
 
   const isInsidePages = window.location.pathname.includes('/pages/');
@@ -379,7 +403,7 @@ async function initFavoritesPage() {
       <div class="col-lg-4 col-md-6">
         <div class="hotel-card" data-hotel-id="${hotel.id}" onclick="window.location.href='hotel-details.html?id=${hotel.id}'">
           <div class="card-image">
-            <img src="${hotel.image}" alt="${hotel.name}" loading="lazy" onerror="this.src='https://images.unsplash.com/photo-1566073771259-6a8506099945?w=600'; this.onerror=null;">
+            <img src="${hotel.image}" alt="${hotel.name}" loading="lazy" onerror="imgFallback(this, '${hotel.id}')">
             <button class="card-fav active"><i class="fa-solid fa-heart"></i></button>
           </div>
           <div class="card-body">
@@ -592,7 +616,7 @@ async function initFeaturedHotels() {
     <div class="col-lg-4 col-md-6 animate-on-scroll">
       <div class="hotel-card" data-hotel-id="${hotel.id}" onclick="window.location.href='${BASE}hotel-details.html?id=${hotel.id}'">
         <div class="card-image">
-          <img src="${hotel.image}" alt="${hotel.name}" loading="lazy" onerror="this.src='https://images.unsplash.com/photo-1566073771259-6a8506099945?w=600'; this.onerror=null;">
+          <img src="${hotel.image}" alt="${hotel.name}" loading="lazy" onerror="imgFallback(this, '${hotel.id}')">
           <span class="card-badge match">${Math.round(hotel.rating * 20)}% Score</span>
           <button class="card-fav"><i class="fa-regular fa-heart"></i></button>
         </div>
@@ -874,7 +898,7 @@ function initWizard() {
       div.className = 'result-card';
       div.innerHTML = `
         <div class="r-img">
-          <img src="${hotel.image}" alt="${hotel.name}" loading="lazy" onerror="this.src='https://images.unsplash.com/photo-1566073771259-6a8506099945?w=600'; this.onerror=null;">
+          <img src="${hotel.image}" alt="${hotel.name}" loading="lazy" onerror="imgFallback(this, '${hotel.id}')">
         </div>
         <div class="r-info">
           <h6>${hotel.name}</h6>
@@ -1023,7 +1047,7 @@ function initHotelFilters() {
       <div class="col-lg-4 col-md-6 mb-4">
         <div class="hotel-card" data-hotel-id="${hotel.id}" onclick="window.location.href='${BASE}hotel-details.html?id=${hotel.id}'">
           <div class="card-image">
-            <img src="${hotel.image}" alt="${hotel.name}" loading="lazy" onerror="this.src='https://images.unsplash.com/photo-1566073771259-6a8506099945?w=600'; this.onerror=null;">
+            <img src="${hotel.image}" alt="${hotel.name}" loading="lazy" onerror="imgFallback(this, '${hotel.id}')">
             <span class="card-badge match">${hotel.matchScore}% Match</span>
             <button class="card-fav"><i class="fa-regular fa-heart"></i></button>
           </div>
