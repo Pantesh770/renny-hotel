@@ -665,17 +665,33 @@ function initNavbarScroll() {
 }
 
 function initMobileMenu() {
-  const toggler = document.querySelector('.navbar-toggler');
   const collapse = document.querySelector('.navbar-collapse');
-  if (!toggler || !collapse) return;
+  if (!collapse) return;
 
-  toggler.addEventListener('click', () => {
-    collapse.classList.toggle('show');
+  // Close menu when clicking outside
+  document.addEventListener('click', (e) => {
+    const toggler = document.querySelector('.navbar-toggler');
+    if (collapse.classList.contains('show') && !collapse.contains(e.target) && !toggler.contains(e.target)) {
+      // Use Bootstrap's Collapse plugin to hide it properly if available, else fallback to class removal
+      if (window.bootstrap && window.bootstrap.Collapse) {
+        const bsCollapse = window.bootstrap.Collapse.getInstance(collapse) || new window.bootstrap.Collapse(collapse);
+        bsCollapse.hide();
+      } else {
+        collapse.classList.remove('show');
+      }
+    }
   });
 
   document.querySelectorAll('.nav-link').forEach(link => {
     link.addEventListener('click', () => {
-      collapse.classList.remove('show');
+      if (collapse.classList.contains('show')) {
+        if (window.bootstrap && window.bootstrap.Collapse) {
+          const bsCollapse = window.bootstrap.Collapse.getInstance(collapse) || new window.bootstrap.Collapse(collapse);
+          bsCollapse.hide();
+        } else {
+          collapse.classList.remove('show');
+        }
+      }
     });
   });
 }

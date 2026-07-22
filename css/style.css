@@ -67,10 +67,11 @@ img { max-width: 100%; height: auto; display: block; }
   padding: 1.2rem 0;
   border-bottom: 1px solid transparent;
   transition: all 0.4s ease;
+  z-index: 1000;
 }
 
 .navbar.scrolled {
-  background: rgba(255, 255, 255, 0.9) !important;
+  background: rgba(255, 255, 255, 0.95) !important;
   backdrop-filter: blur(20px);
   padding: 0.7rem 0;
   border-bottom: 1px solid var(--gray-200);
@@ -101,6 +102,62 @@ img { max-width: 100%; height: auto; display: block; }
 
 .navbar.scrolled .nav-link {
   color: var(--navy-800) !important;
+}
+
+.navbar-toggler {
+  color: var(--navy-900);
+  font-size: 1.5rem;
+  padding: 0.5rem;
+  transition: var(--transition);
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+/* Mobile Navbar Styles */
+@media (max-width: 991px) {
+  .navbar {
+    background: var(--white) !important;
+    padding: 0.8rem 0;
+    box-shadow: var(--shadow);
+    border-bottom: 1px solid var(--gray-100);
+  }
+
+  .navbar-collapse {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: var(--white) !important;
+    padding: 1.5rem;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+    z-index: 1000;
+  }
+
+  /* Ensure it's hidden when not shown, and use !important to override Bootstrap if needed */
+  .collapse:not(.show) {
+    display: none !important;
+  }
+
+  .navbar-nav {
+    margin-bottom: 1.5rem;
+    text-align: left;
+  }
+
+  .nav-link {
+    padding: 0.8rem 1rem !important;
+    border-radius: 10px;
+  }
+
+  .navbar .d-flex.gap-2 {
+    flex-direction: column;
+  }
+
+  .navbar .btn {
+    width: 100%;
+    text-align: center;
+  }
 }
 
 .navbar .btn-gold {
@@ -1719,22 +1776,26 @@ img { max-width: 100%; height: auto; display: block; }
   .dashboard-main { margin-left: 220px; padding: 1.5rem; }
   .detail-gallery { grid-template-columns: 1fr; }
   .detail-gallery .main-img { grid-row: auto; height: 300px; }
-  .detail-gallery .sub-img { height: 150px; }
+  .detail-gallery .sub-img { height: 180px; }
+  .detail-hero { padding: 100px 0 40px; text-align: center; }
+  .detail-hero .breadcrumb { justify-content: center; }
+  .detail-hero .detail-meta { justify-content: center; gap: 1rem; }
+  .detail-hero .align-items-end { align-items: center !important; }
 }
 
 @media (max-width: 767px) {
-  .hero-title { font-size: 2rem; }
-  .hero-section { padding: 100px 0 60px; text-align: center; }
-  .hero-subtitle { margin-left: auto; margin-right: auto; }
+  .hero-title { font-size: 2.2rem; }
+  .hero-section { padding: 140px 0 60px; text-align: center; }
+  .hero-subtitle { margin-left: auto; margin-right: auto; font-size: 1.1rem; }
   .hero-actions { justify-content: center; }
-  .hero-stats { justify-content: center; }
+  .hero-stats { justify-content: center; margin-top: 3rem; }
   .hero-card-float { display: none; }
-  .hero-image-wrapper { min-height: auto; }
-  .hero-image-stack { height: 250px; }
+  .hero-image-wrapper { min-height: auto; margin-top: 2rem; }
+  .hero-image-stack { height: 280px; }
   .stack-img { left: 5%; width: 90%; border-radius: 20px; }
   .stack-1 { transform: none; }
   .stack-2, .stack-3 { display: none; }
-  .wizard-card { padding: 1.5rem; }
+  .wizard-card { padding: 2rem 1.5rem; }
   .wizard-steps { gap: 1rem; flex-wrap: wrap; }
   .step-label { display: none; }
   .section { padding: 60px 0; }
@@ -1743,9 +1804,11 @@ img { max-width: 100%; height: auto; display: block; }
   .dashboard-main { margin-left: 0; }
   .dashboard-header { flex-direction: column; gap: 1rem; align-items: flex-start; }
   .page-hero h1 { font-size: 2rem; }
-  .auth-card { padding: 2rem 1.5rem; }
+  .auth-card { padding: 2.5rem 1.5rem; }
   .profile-header-card { flex-direction: column; text-align: center; }
   .result-card { flex-direction: column; text-align: center; }
+  .detail-hero h1 { font-size: 1.8rem; }
+  .detail-hero .detail-meta span { font-size: 0.85rem; }
 }
 
 @media (max-width: 575px) {
