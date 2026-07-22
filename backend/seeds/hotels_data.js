@@ -367,9 +367,9 @@ const hotels = [
     description: 'A magnificent Edwardian-style manor with unmatched old-world luxury.',
     price: 2600, stars: 5, rating: 4.9,
     address: 'Grumeti Game Reserve, Serengeti', contact: '+255 768 982 982',
-    image: 'https://singita.com/images/lodges/sasakwa/sasakwa-exterior.jpg',
-    image2: 'https://singita.com/images/lodges/sasakwa/sasakwa-pool.jpg',
-    image3: 'https://singita.com/images/lodges/sasakwa/sasakwa-cottage.jpg',
+    image: 'https://images.ctfassets.net/wds1hqrprqxb/38J2SD0Y15zGboTOrump9J/9e339850df0e1c90b67015b4c8165cfe/homepage_grid_sasakwa.jpg',
+    image2: 'https://images.ctfassets.net/wds1hqrprqxb/1NuoAbVkhDc14WT7CqeVjJ/1a260b6a2c1de2899b193db7fbc8481e/Singita-Sasakwa-Lodge17.jpg',
+    image3: 'https://images.ctfassets.net/wds1hqrprqxb/nVbl5Zx8uCQ4Pj5TzhPqE/70d587813733c86d6f799eb4badf07ad/_OGS6636-HDR.jpg',
     sound_url: '', amenities: ['Pool', 'Spa', 'Restaurant', 'Bar', 'Game Drives', 'Concierge']
   },
   {
