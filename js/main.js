@@ -379,7 +379,7 @@ async function initFavoritesPage() {
       <div class="col-lg-4 col-md-6">
         <div class="hotel-card" data-hotel-id="${hotel.id}" onclick="window.location.href='hotel-details.html?id=${hotel.id}'">
           <div class="card-image">
-            <img src="${hotel.image}" alt="${hotel.name}" loading="lazy">
+            <img src="${hotel.image}" alt="${hotel.name}" loading="lazy" onerror="this.src='https://images.unsplash.com/photo-1566073771259-6a8506099945?w=600'; this.onerror=null;">
             <button class="card-fav active"><i class="fa-solid fa-heart"></i></button>
           </div>
           <div class="card-body">
@@ -592,7 +592,7 @@ async function initFeaturedHotels() {
     <div class="col-lg-4 col-md-6 animate-on-scroll">
       <div class="hotel-card" data-hotel-id="${hotel.id}" onclick="window.location.href='${BASE}hotel-details.html?id=${hotel.id}'">
         <div class="card-image">
-          <img src="${hotel.image}" alt="${hotel.name}" loading="lazy">
+          <img src="${hotel.image}" alt="${hotel.name}" loading="lazy" onerror="this.src='https://images.unsplash.com/photo-1566073771259-6a8506099945?w=600'; this.onerror=null;">
           <span class="card-badge match">${Math.round(hotel.rating * 20)}% Score</span>
           <button class="card-fav"><i class="fa-regular fa-heart"></i></button>
         </div>
@@ -874,7 +874,7 @@ function initWizard() {
       div.className = 'result-card';
       div.innerHTML = `
         <div class="r-img">
-          <img src="${hotel.image}" alt="${hotel.name}" loading="lazy">
+          <img src="${hotel.image}" alt="${hotel.name}" loading="lazy" onerror="this.src='https://images.unsplash.com/photo-1566073771259-6a8506099945?w=600'; this.onerror=null;">
         </div>
         <div class="r-info">
           <h6>${hotel.name}</h6>
@@ -1023,7 +1023,7 @@ function initHotelFilters() {
       <div class="col-lg-4 col-md-6 mb-4">
         <div class="hotel-card" data-hotel-id="${hotel.id}" onclick="window.location.href='${BASE}hotel-details.html?id=${hotel.id}'">
           <div class="card-image">
-            <img src="${hotel.image}" alt="${hotel.name}" loading="lazy">
+            <img src="${hotel.image}" alt="${hotel.name}" loading="lazy" onerror="this.src='https://images.unsplash.com/photo-1566073771259-6a8506099945?w=600'; this.onerror=null;">
             <span class="card-badge match">${hotel.matchScore}% Match</span>
             <button class="card-fav"><i class="fa-regular fa-heart"></i></button>
           </div>

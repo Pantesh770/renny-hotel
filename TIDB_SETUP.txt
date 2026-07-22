@@ -1,0 +1,59 @@
+TIDB SERVERLESS DATABASE SETUP
+===============================
+
+STEP 1: Create TiDB Serverless Cluster
+----------------------------------------
+1. Go to https://tidbcloud.com and sign up (free, no credit card)
+2. Click "Create Resource" → Select "TiDB Serverless"
+3. Choose Region (pick closest to you, e.g. Singapore)
+4. Click "Create" (takes ~30 seconds)
+
+STEP 2: Get Connection Details
+-------------------------------
+1. Click into your cluster
+2. Click "Connect" button (top right)
+3. Click "Create Password" and set a password
+4. SAVE THE PASSWORD - it won't be shown again
+5. Copy these details:
+
+   HOST:     gateway01.ap-northeast-1.prod.aws.tidbcloud.com
+   PORT:     4000
+   USERNAME: xxxxxxxx.root
+   PASSWORD: the password you created
+   DATABASE: sys (default)
+
+STEP 3: Create Your Database
+------------------------------
+1. Click "SQL Editor" in TiDB Cloud dashboard
+2. Run this command:
+   
+   CREATE DATABASE renny_hotels;
+   
+3. Confirm with: SHOW DATABASES;
+
+STEP 4: Set Environment Variables in Vercel
+---------------------------------------------
+Go to Vercel → Project → Settings → Environment Variables
+Add these 7 variables:
+
+   DB_HOST     = the HOST from step 2
+   DB_USER     = the USERNAME from step 2
+   DB_PASSWORD = the PASSWORD from step 2
+   DB_NAME     = renny_hotels
+   DB_PORT     = 4000
+   DB_SSL      = true
+   JWT_SECRET  = any random string (e.g. my-super-secret-key)
+
+STEP 5: Redeploy
+-----------------
+Go to Vercel → Deployments → ⋮ (three dots) → Redeploy
+Wait ~2 minutes for the build to finish.
+
+STEP 6: Verify
+---------------
+Visit https://renny-hotel.vercel.app/api/health
+You should see: {"status":"ok","message":"Renny API is running"}
+
+If login still fails, the auto-seed needs to run.
+On first API call after redeploy, the app creates all tables
+and inserts 93 hotels + 2 users automatically.
