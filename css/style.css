@@ -1729,6 +1729,11 @@ img { max-width: 100%; height: auto; display: block; }
   .hero-actions { justify-content: center; }
   .hero-stats { justify-content: center; }
   .hero-card-float { display: none; }
+  .hero-image-wrapper { min-height: auto; }
+  .hero-image-stack { height: 250px; }
+  .stack-img { left: 5%; width: 90%; border-radius: 20px; }
+  .stack-1 { transform: none; }
+  .stack-2, .stack-3 { display: none; }
   .wizard-card { padding: 1.5rem; }
   .wizard-steps { gap: 1rem; flex-wrap: wrap; }
   .step-label { display: none; }

@@ -13,12 +13,23 @@ const initDb = require('./config/initDb');
 
 const app = express();
 
-// Initialize Database & Migrations
-initDb();
-
 app.use(cors());
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
+
+// Initialize Database & Migrations (await first API request)
+let dbReady = false;
+let dbInitPromise = initDb().then(() => { dbReady = true; }).catch(err => {
+  console.error('DB init error:', err);
+  dbReady = true;
+});
+
+app.use((req, res, next) => {
+  if (!dbReady && req.path.startsWith('/api/')) {
+    return dbInitPromise.then(() => next()).catch(() => next());
+  }
+  next();
+});
 
 if (!process.env.VERCEL) {
   app.use(express.static(path.join(__dirname, '..')));
