@@ -1,0 +1,49 @@
+RENNY - Hotel Recommendation System
+=====================================
+Setup Instructions
+=====================================
+
+STEP 1: Install MySQL
+---------------------
+
+Option A - Ubuntu/Debian (Linux):
+  sudo apt-get update
+  sudo apt-get install -y mysql-server
+  sudo service mysql start
+  sudo mysql -e "ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY ''; FLUSH PRIVILEGES;"
+
+Option B - Windows:
+  1. Download MySQL Installer from: https://dev.mysql.com/downloads/installer/
+  2. Run the installer and choose "MySQL Server" only
+  3. Set root password to blank (leave empty) or remember what you set
+
+Option C - macOS:
+  brew install mysql
+  brew services start mysql
+
+STEP 2: Install Node.js
+------------------------
+Download from: https://nodejs.org/ (download LTS version)
+Install it like any normal program.
+
+STEP 3: Run the Project
+------------------------
+Open a terminal/command prompt in the "backend" folder and run:
+
+  npm install
+  npm run seed
+  npm run dev
+
+The API will start at http://localhost:5000
+
+STEP 4: View the Website
+-------------------------
+Open the file "index.html" in your browser (just double-click it).
+Note: The frontend works with sample data by default.
+      To connect to the live database, the JS needs to be updated.
+
+=====================================
+Default Login Credentials
+=====================================
+Admin:  admin@renny.com / admin123
+User:   john@renny.com  / user123

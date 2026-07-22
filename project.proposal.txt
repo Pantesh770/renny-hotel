@@ -1,0 +1,57 @@
+PROJECT PROPOSAL: RENNY – AN INTELLIGENT MULTI-SENSORY RECOMMENDATION SYSTEM FOR TANZANIA’S EXOTIC STAYS
+
+STUDENT NAME: IRENE JACOB MAGEMBE
+STUDENT NUMBER: BMMC-01-0001-2023
+COURSE: BACHELOR DEGREE IN MULTIMEDIA AND MASS COMMUNICATION
+SUPERVISOR: WANKYO JOSHUA
+DATE: JULY 2026
+
+1.0 INTRODUCTION
+In the contemporary era of global digital saturation, the tourism and hospitality industry in Tanzania finds itself at a significant crossroads. While the country remains a destination of unparalleled aesthetic beauty, the digital architecture representing its hospitality sector is often static and impersonal. Renny is an intelligent, media-led capstone initiative meticulously designed to bridge this chasm.
+
+As a student of Multimedia and Mass Communication, this project serves as the definitive application of my three-year journey, merging high-end media production with full-stack web development. Unlike traditional directory websites, Renny utilizes a custom weighted scoring algorithm to match travelers with their ideal stays, transforming the digital search into a dynamic, personalized experience that communicates the "soul" of Tanzania’s hospitality.
+
+2.0 PROBLEM STATEMENT
+The central challenge addressed in this study is the digital disconnect currently defining the Tanzanian hospitality market. Existing platforms often commoditize unique boutique lodges, treating them as functional listings based solely on price. This reductive approach strips away the narrative character and cultural heritage essential to the traveler’s experience.
+
+From a professional public relations perspective, this represents a failure in brand communication. Establishments lack the technical infrastructure to convey their identity, resulting in diminished trust with international audiences. My project intervenes by treating each venue as a unique narrative, utilizing professional multimedia assets and an intelligent recommendation wizard to create an emotional, trust-based connection between the venue and the traveler.
+
+3.0 PROJECT OBJECTIVES
+To ensure the technical and academic integrity of this project, I have established four key pillars:
+i. Authentic Personality Capture: Conduct comprehensive multimedia production to capture high-fidelity visual and auditory assets that define each lodge’s distinct identity across major Tanzanian destinations.
+ii. Algorithmic Personalization: Develop an Intelligent Recommendation Engine using a weighted scoring algorithm (Location 40%, Budget 30%, Amenities 20%, Rating 10%) to provide personalized travel guidance.
+iii. Full-Stack Technical Application: Demonstrate advanced competencies in Adobe Creative Suite for asset production and Node.js, Express, and MySQL for engineering a robust, data-driven web platform.
+iv. Story-Driven Interface Architecture: Design a responsive "Portfolio-style" interface that rejects standard directory structures in favor of immersive, media-rich galleries and interactive user dashboards.
+
+4.0 THEORETICAL FRAMEWORK
+Media Richness Theory (MRT): My work relies on the premise that richer mediums reduce ambiguity. By replacing static text with high-definition multi-image galleries and prospective video integration, I clarify the traveler’s perception of a lodge.
+Uses and Gratifications Theory (UGT): This project views the traveler as an active audience seeking specific gratifications—inspiration and security. The Recommendation Wizard fulfills these needs by providing data-backed confidence in their choice of stay.
+
+5.0 METHODOLOGY & TECHNICAL WORKFLOW
+My methodological approach is modeled on the practices of a professional multimedia developer:
+Data Engineering: Designing a relational MySQL database to manage complex hotel data, user authentication, guest reviews, and favoriting systems.
+Backend Development: Engineering a RESTful API using Express.js to handle dynamic content delivery and logic-based hotel matching.
+Multimedia Production: Utilizing Adobe Premiere Pro and Audition to ensure all visual and audio assets meet industry-leading standards before digital integration.
+Usability Validation: Performing systematic "Stress Tests" on the algorithm and interface to ensure intuitive navigation and high performance across all mobile and desktop devices.
+
+5.5 TECHNICAL SPECIFICATIONS
+Development Stack: Node.js (Runtime), Express.js (Backend), MySQL (Database), Bootstrap 5 & Vanilla JS (Frontend).
+Imaging Equipment: DSLR cameras for 4K video capture and professional wide-angle lenses for architectural photography.
+Audio Capture: External shotgun microphones for capturing clean ambient audio of the local Tanzanian environments.
+
+6.0 SCOPE OF THE PROJECT
+The scope of Renny is high-impact, focusing on 32+ representative hospitality venues across Tanzania’s most iconic regions, including Zanzibar, Serengeti, Arusha, and Moshi.
+Narrative Extraction: Consultation with management to extract the unique "story" of each venue.
+Intelligent Logic: Implementation of a 4-step user wizard for real-time recommendation.
+Administrative Control: A secure Admin Panel for real-time management of hotel data, user roles, and guest feedback.
+
+7.0 PROJECT TIMELINE (7-DAYS INTENSIVE PLAN)
+Day 1-2: Database Schema Design & Core Backend API Setup (Node/Express/MySQL).
+Day 3: Fieldwork, High-Fidelity Asset Acquisition, and Image Post-Production.
+Day 4: Development of the Intelligent Recommendation Algorithm & User Auth System.
+Day 5: Frontend Architecture & 3D Interactive UI Implementation.
+Day 6: Content Integration (Seeding the 32+ Hotel Data & Multi-Image Galleries).
+Day 7: Systematic Testing, Quality Assurance, and Final Project Submission.
+
+8.0 SIGNIFICANCE AND CONCLUSION
+Renny: The Media-Led Traveler is the culmination of my Bachelor’s degree, demonstrating my capacity to combine journalistic integrity with full-stack technical execution. By modernizing the digital presentation of Tanzania’s hospitality sector through intelligent matching and rich media, I aim to provide clear evidence of my professional readiness for the global digital communication market.

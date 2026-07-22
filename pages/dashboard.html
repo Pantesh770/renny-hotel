@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard - Renny</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+  <div class="dashboard-wrapper">
+    <div class="dashboard-sidebar">
+      <a href="../index.html" class="sidebar-brand">renny<span>.</span></a>
+      <div class="sidebar-user">
+        <div class="user-avatar" id="userAvatar">U</div>
+        <div class="user-info">
+          <h6 id="userNameSidebar">User Name</h6>
+          <small id="userEmailSidebar">user@example.com</small>
+        </div>
+      </div>
+      <ul class="sidebar-nav">
+        <li><a href="dashboard.html" class="active"><i class="fa-solid fa-gauge"></i> Dashboard</a></li>
+        <li><a href="favorites.html"><i class="fa-solid fa-heart"></i> Favorites</a></li>
+        <li><a href="profile.html"><i class="fa-solid fa-user"></i> Profile</a></li>
+        <li><a href="hotels.html"><i class="fa-solid fa-building"></i> Browse Hotels</a></li>
+        <li><a href="#" id="btnLogoutDashboard"><i class="fa-solid fa-right-from-bracket"></i> Sign Out</a></li>
+      </ul>
+    </div>
+
+    <div class="dashboard-main">
+      <div class="dashboard-header">
+        <h2>Dashboard <small id="welcomeMsg">Welcome back!</small></h2>
+        <a href="hotels.html" class="btn btn-gold btn-sm"><i class="fa-solid fa-search me-2"></i>Find Hotels</a>
+      </div>
+
+      <div class="row g-4 mb-4">
+        <div class="col-md-3">
+          <div class="stat-card">
+            <div class="stat-icon gold"><i class="fa-solid fa-heart"></i></div>
+            <div class="stat-info">
+              <h3 id="countFavorites">0</h3>
+              <p>Favorites</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="stat-card">
+            <div class="stat-icon blue"><i class="fa-solid fa-star"></i></div>
+            <div class="stat-info">
+              <h3 id="countReviews">0</h3>
+              <p>Reviews</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="stat-card">
+            <div class="stat-icon green"><i class="fa-solid fa-location-dot"></i></div>
+            <div class="stat-info">
+              <h3 id="countCities">0</h3>
+              <p>Destinations</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="stat-card">
+            <div class="stat-icon red"><i class="fa-solid fa-clock"></i></div>
+            <div class="stat-info">
+              <h3 id="countPending">0</h3>
+              <p>Bookings</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row g-4">
+        <div class="col-lg-8">
+          <div class="admin-table-wrapper">
+            <div class="table-header">
+              <h5>Recent Activity</h5>
+            </div>
+            <div class="table-responsive">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th>Hotel</th>
+                    <th>Action</th>
+                    <th>Date</th>
+                    <th>Status</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Grand Horizon Hotel</td>
+                    <td>Added to Favorites</td>
+                    <td>Mar 15, 2024</td>
+                    <td><span class="status-badge active">Active</span></td>
+                  </tr>
+                  <tr>
+                    <td>The Beverly Hills Hotel</td>
+                    <td>Reviewed</td>
+                    <td>Mar 12, 2024</td>
+                    <td><span class="status-badge active">Completed</span></td>
+                  </tr>
+                  <tr>
+                    <td>London Heritage Hotel</td>
+                    <td>Added to Favorites</td>
+                    <td>Mar 10, 2024</td>
+                    <td><span class="status-badge active">Active</span></td>
+                  </tr>
+                  <tr>
+                    <td>Sunset Paradise Resort</td>
+                    <td>Viewed Details</td>
+                    <td>Mar 8, 2024</td>
+                    <td><span class="status-badge pending">Pending</span></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="form-card">
+            <h5 class="mb-3"><i class="fa-solid fa-clock-rotate-left me-2"></i>Recent Hotels</h5>
+            <div class="d-flex flex-column gap-3">
+              <div class="d-flex align-items-center gap-2">
+                <div style="width: 50px; height: 50px; border-radius: 8px; overflow: hidden; flex-shrink: 0;">
+                  <img src="https://images.unsplash.com/photo-1566073771259-6a8506099945?w=100" alt="" style="width: 100%; height: 100%; object-fit: cover;">
+                </div>
+                <div>
+                  <h6 class="mb-0" style="font-size: 0.9rem;">Grand Horizon</h6>
+                  <small class="text-muted">New York · $320/night</small>
+                </div>
+              </div>
+              <div class="d-flex align-items-center gap-2">
+                <div style="width: 50px; height: 50px; border-radius: 8px; overflow: hidden; flex-shrink: 0;">
+                  <img src="https://images.unsplash.com/photo-1549638441-b787d2e11f14?w=100" alt="" style="width: 100%; height: 100%; object-fit: cover;">
+                </div>
+                <div>
+                  <h6 class="mb-0" style="font-size: 0.9rem;">Beverly Hills Hotel</h6>
+                  <small class="text-muted">Los Angeles · $450/night</small>
+                </div>
+              </div>
+              <div class="d-flex align-items-center gap-2">
+                <div style="width: 50px; height: 50px; border-radius: 8px; overflow: hidden; flex-shrink: 0;">
+                  <img src="https://images.unsplash.com/photo-1551918120-9739cb430c6d?w=100" alt="" style="width: 100%; height: 100%; object-fit: cover;">
+                </div>
+                <div>
+                  <h6 class="mb-0" style="font-size: 0.9rem;">London Heritage</h6>
+                  <small class="text-muted">London · $350/night</small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="../js/recommendation.js"></script>
+  <script src="../js/main.js"></script>
+</body>
+</html>

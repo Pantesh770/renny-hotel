@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin Dashboard - Renny</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="../../css/style.css">
+</head>
+<body>
+
+  <div class="dashboard-wrapper admin-dashboard">
+    <div class="dashboard-sidebar">
+      <a href="../../index.html" class="sidebar-brand">renny<span>.</span></a>
+      <div class="sidebar-user">
+        <div class="user-avatar" style="background: var(--red-500);">A</div>
+        <div class="user-info">
+          <h6>Admin</h6>
+          <small>Administrator</small>
+        </div>
+      </div>
+      <ul class="sidebar-nav">
+        <li><a href="dashboard.html" class="active"><i class="fa-solid fa-gauge"></i> Dashboard</a></li>
+        <li><a href="manage-hotels.html"><i class="fa-solid fa-building"></i> Manage Hotels</a></li>
+        <li><a href="manage-users.html"><i class="fa-solid fa-users"></i> Manage Users</a></li>
+        <li><a href="manage-reviews.html"><i class="fa-solid fa-star"></i> Manage Reviews</a></li>
+        <li><a href="../hotels.html"><i class="fa-solid fa-eye"></i> View Site</a></li>
+        <li><a href="#" id="btnLogoutAdmin"><i class="fa-solid fa-right-from-bracket"></i> Sign Out</a></li>
+      </ul>
+    </div>
+
+    <div class="dashboard-main">
+      <div class="dashboard-header">
+        <h2>Admin Dashboard <small>Manage your platform</small></h2>
+        <a href="manage-hotels.html" class="btn btn-gold btn-sm"><i class="fa-solid fa-plus me-2"></i>Add Hotel</a>
+      </div>
+
+      <div class="row g-4 mb-4">
+        <div class="col-md-3">
+          <div class="stat-card">
+            <div class="stat-icon gold"><i class="fa-solid fa-building"></i></div>
+            <div class="stat-info">
+              <h3 id="adminStatHotels">0</h3>
+              <p>Total Hotels</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="stat-card">
+            <div class="stat-icon blue"><i class="fa-solid fa-users"></i></div>
+            <div class="stat-info">
+              <h3 id="adminStatUsers">0</h3>
+              <p>Registered Users</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="stat-card">
+            <div class="stat-icon green"><i class="fa-solid fa-star"></i></div>
+            <div class="stat-info">
+              <h3 id="adminStatReviews">0</h3>
+              <p>Total Reviews</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="stat-card">
+            <div class="stat-icon red"><i class="fa-solid fa-heart"></i></div>
+            <div class="stat-info">
+              <h3 id="adminStatFavorites">0</h3>
+              <p>Saved Favorites</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row g-4">
+        <div class="col-lg-8">
+          <div class="admin-table-wrapper">
+            <div class="table-header">
+              <h5>Recent Hotels</h5>
+              <a href="manage-hotels.html" class="btn btn-outline-gold btn-sm">View All</a>
+            </div>
+            <div class="table-responsive">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th>Hotel</th>
+                    <th>City</th>
+                    <th>Price</th>
+                    <th>Rating</th>
+                    <th>Status</th>
+                    <th>Actions</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Grand Horizon Hotel</td>
+                    <td>New York</td>
+                    <td>$320</td>
+                    <td>4.8</td>
+                    <td><span class="status-badge active">Active</span></td>
+                    <td>
+                      <button class="action-btn edit"><i class="fa-solid fa-pen"></i></button>
+                      <button class="action-btn delete"><i class="fa-solid fa-trash"></i></button>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>The Beverly Hills Hotel</td>
+                    <td>Los Angeles</td>
+                    <td>$450</td>
+                    <td>4.9</td>
+                    <td><span class="status-badge active">Active</span></td>
+                    <td>
+                      <button class="action-btn edit"><i class="fa-solid fa-pen"></i></button>
+                      <button class="action-btn delete"><i class="fa-solid fa-trash"></i></button>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>London Heritage Hotel</td>
+                    <td>London</td>
+                    <td>$350</td>
+                    <td>4.8</td>
+                    <td><span class="status-badge active">Active</span></td>
+                    <td>
+                      <button class="action-btn edit"><i class="fa-solid fa-pen"></i></button>
+                      <button class="action-btn delete"><i class="fa-solid fa-trash"></i></button>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Sunset Paradise Resort</td>
+                    <td>Miami</td>
+                    <td>$280</td>
+                    <td>4.7</td>
+                    <td><span class="status-badge inactive">Inactive</span></td>
+                    <td>
+                      <button class="action-btn edit"><i class="fa-solid fa-pen"></i></button>
+                      <button class="action-btn delete"><i class="fa-solid fa-trash"></i></button>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="form-card">
+            <h5 class="mb-3"><i class="fa-solid fa-clock-rotate-left me-2"></i>Recent Activity</h5>
+            <div class="d-flex flex-column gap-3">
+              <div class="d-flex align-items-start gap-2">
+                <div style="width: 8px; height: 8px; border-radius: 50%; background: var(--green-500); margin-top: 6px; flex-shrink: 0;"></div>
+                <div>
+                  <small class="d-block" style="font-size: 0.8rem;">New user registered: Sarah M.</small>
+                  <small class="text-muted">2 hours ago</small>
+                </div>
+              </div>
+              <div class="d-flex align-items-start gap-2">
+                <div style="width: 8px; height: 8px; border-radius: 50%; background: var(--blue-500); margin-top: 6px; flex-shrink: 0;"></div>
+                <div>
+                  <small class="d-block" style="font-size: 0.8rem;">Hotel added: Parisian Luxe Hotel</small>
+                  <small class="text-muted">5 hours ago</small>
+                </div>
+              </div>
+              <div class="d-flex align-items-start gap-2">
+                <div style="width: 8px; height: 8px; border-radius: 50%; background: var(--gold-400); margin-top: 6px; flex-shrink: 0;"></div>
+                <div>
+                  <small class="d-block" style="font-size: 0.8rem;">New review on Grand Horizon</small>
+                  <small class="text-muted">1 day ago</small>
+                </div>
+              </div>
+              <div class="d-flex align-items-start gap-2">
+                <div style="width: 8px; height: 8px; border-radius: 50%; background: var(--red-500); margin-top: 6px; flex-shrink: 0;"></div>
+                <div>
+                  <small class="d-block" style="font-size: 0.8rem;">User account deleted: spam_user_23</small>
+                  <small class="text-muted">2 days ago</small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="../../js/recommendation.js"></script>
+  <script src="../../js/main.js"></script>
+</body>
+</html>
