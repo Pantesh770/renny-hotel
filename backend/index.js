@@ -20,8 +20,10 @@ app.use(cors());
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
-app.use(express.static(path.join(__dirname, '..')));
-app.use('/storage', express.static(path.join(__dirname, 'storage')));
+if (!process.env.VERCEL) {
+  app.use(express.static(path.join(__dirname, '..')));
+  app.use('/storage', express.static(path.join(__dirname, 'storage')));
+}
 
 app.get('/api/health', (req, res) => {
   res.json({ status: 'ok', message: 'Renny API is running' });
