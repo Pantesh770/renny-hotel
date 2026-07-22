@@ -1,5 +1,28 @@
 const pool = require('../config/db');
 
+function getFallbackHotels() {
+  const data = require('../seeds/hotels_data');
+  return data.map((h, i) => ({ id: i + 1, ...h }));
+}
+
+function getFallbackById(id) {
+  return getFallbackHotels().find(h => h.id === parseInt(id)) || null;
+}
+
+function getFallbackCities() {
+  return [...new Set(getFallbackHotels().map(h => h.city))].sort();
+}
+
+function getFallbackRegions() {
+  return [...new Set(getFallbackHotels().map(h => h.region).filter(Boolean))].sort();
+}
+
+function getFallbackAmenities() {
+  const all = new Set();
+  getFallbackHotels().forEach(h => (h.amenities || []).forEach(a => all.add(a)));
+  return [...all].sort().map(name => ({ id: 0, name }));
+}
+
 exports.getAll = async (req, res) => {
   try {
     const { city, region, minPrice, maxPrice, minStars, amenity } = req.query;
@@ -52,7 +75,8 @@ exports.getAll = async (req, res) => {
 
     res.json(hotels);
   } catch (err) {
-    res.status(500).json({ error: err.message });
+    console.warn('DB hotels query failed, using fallback data:', err.message);
+    res.json(getFallbackHotels());
   }
 };
 
@@ -60,6 +84,8 @@ exports.getById = async (req, res) => {
   try {
     const [hotels] = await pool.query('SELECT * FROM hotels WHERE id = ?', [req.params.id]);
     if (hotels.length === 0) {
+      const fallback = getFallbackById(req.params.id);
+      if (fallback) return res.json({ ...fallback, reviews: [] });
       return res.status(404).json({ error: 'Hotel not found' });
     }
 
@@ -78,6 +104,9 @@ exports.getById = async (req, res) => {
 
     res.json(hotel);
   } catch (err) {
+    console.warn('DB getById failed, using fallback:', err.message);
+    const fallback = getFallbackById(req.params.id);
+    if (fallback) return res.json({ ...fallback, reviews: [] });
     res.status(500).json({ error: err.message });
   }
 };
@@ -140,7 +169,8 @@ exports.getCities = async (req, res) => {
     const [rows] = await pool.query('SELECT DISTINCT city FROM hotels ORDER BY city');
     res.json(rows.map(r => r.city));
   } catch (err) {
-    res.status(500).json({ error: err.message });
+    console.warn('DB getCities failed, using fallback:', err.message);
+    res.json(getFallbackCities());
   }
 };
 
@@ -149,7 +179,8 @@ exports.getRegions = async (req, res) => {
     const [rows] = await pool.query('SELECT DISTINCT region FROM hotels ORDER BY region');
     res.json(rows.map(r => r.region));
   } catch (err) {
-    res.status(500).json({ error: err.message });
+    console.warn('DB getRegions failed, using fallback:', err.message);
+    res.json(getFallbackRegions());
   }
 };
 
@@ -158,6 +189,7 @@ exports.getAmenities = async (req, res) => {
     const [rows] = await pool.query('SELECT * FROM amenities ORDER BY name');
     res.json(rows);
   } catch (err) {
-    res.status(500).json({ error: err.message });
+    console.warn('DB getAmenities failed, using fallback:', err.message);
+    res.json(getFallbackAmenities());
   }
 };

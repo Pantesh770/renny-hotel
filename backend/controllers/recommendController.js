@@ -1,5 +1,10 @@
 const pool = require('../config/db');
 
+function getFallbackHotels() {
+  const data = require('../seeds/hotels_data');
+  return data.map((h, i) => ({ id: i + 1, ...h }));
+}
+
 const USD_TO_TSH = 2650;
 
 const WEIGHTS = {
@@ -37,15 +42,29 @@ exports.recommend = async (req, res) => {
       sql += ` WHERE ` + conditions.join(' AND ');
     }
 
-    let [hotels] = await pool.query(sql, params);
+    let hotels;
 
-    // Fetch amenities for each hotel
-    for (let hotel of hotels) {
-      const [amenityRows] = await pool.query(
-        `SELECT a.name FROM amenities a JOIN hotel_amenities ha ON a.id = ha.amenity_id WHERE ha.hotel_id = ?`,
-        [hotel.id]
-      );
-      hotel.amenities = amenityRows.map(a => a.name);
+    try {
+      [hotels] = await pool.query(sql, params);
+      for (let hotel of hotels) {
+        const [amenityRows] = await pool.query(
+          `SELECT a.name FROM amenities a JOIN hotel_amenities ha ON a.id = ha.amenity_id WHERE ha.hotel_id = ?`,
+          [hotel.id]
+        );
+        hotel.amenities = amenityRows.map(a => a.name);
+      }
+    } catch (dbErr) {
+      console.warn('DB recommend query failed, using fallback:', dbErr.message);
+      hotels = getFallbackHotels().filter(h => {
+        if (city && !h.city.toLowerCase().includes(city.toLowerCase())) return false;
+        if (region && !(h.region || '').toLowerCase().includes(region.toLowerCase())) return false;
+        if (search) {
+          const t = search.toLowerCase();
+          if (!h.name.toLowerCase().includes(t) && !h.city.toLowerCase().includes(t) &&
+              !(h.region || '').toLowerCase().includes(t) && !h.description.toLowerCase().includes(t)) return false;
+        }
+        return true;
+      });
     }
 
     // Strict filtering (if strict mode is on, typically for the Hotels Browse page)
